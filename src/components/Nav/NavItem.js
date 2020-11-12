@@ -3,8 +3,10 @@ import { NavLink } from 'react-router-dom';
 
 function NavItem({ to, linkName }) {
   return (
-    <li>
-      <NavLink to={to}>{linkName}</NavLink>
+    <li className="navItem">
+      <NavLink to={to} className="navLink">
+        {linkName}
+      </NavLink>
     </li>
   );
 }

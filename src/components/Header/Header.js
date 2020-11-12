@@ -1,9 +1,11 @@
 import React from 'react';
 import { Nav } from '../Nav';
+import Logo from './Logo';
 
 function Header() {
   return (
-    <div>
+    <div className="header">
+      <Logo />
       <Nav />
     </div>
   );

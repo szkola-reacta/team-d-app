@@ -1,11 +1,10 @@
 import React from 'react';
 import NavList from './NavList';
-import Logo from './Logo';
+import './style.css';
 
 function Nav() {
   return (
-    <nav>
-      <Logo />
+    <nav className="nav">
       <NavList />
     </nav>
   );

@@ -21,7 +21,7 @@ const List = [
 
 function NavList() {
   return (
-    <ul>
+    <ul className="navList">
       {List.map((el) => (
         <NavItem key={`link-${el.id}`} linkName={el.linkName} to={el.path} />
       ))}

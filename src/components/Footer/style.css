@@ -11,6 +11,22 @@ footer .firstRow {
   align-items: center;
 }
 
+footer .firstRow .column {
+  flex: 0.3;
+}
+
+footer .firstRow .column p {
+  text-align: left;
+}
+
+footer .firstRow .column ul {
+  list-style: none;
+}
+
+footer .firstRow .column li {
+  color: #aaaaaa;
+}
+
 footer .secondRow {
   font-size: 12px;
   color: #aaaaaa;

@@ -1,39 +1,72 @@
 footer {
-  height: 300px;
+  height: auto;
   background-color: #0e0e0e;
   color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 footer .firstRow {
   height: 90%;
+  padding: 50px;
   display: flex;
   justify-content: space-around;
-  align-items: center;
 }
 
 footer .firstRow .column {
+  margin: 25px;
   flex: 0.3;
 }
 
-footer .firstRow .column p {
+footer .firstRow .narrowColumn {
+  margin: 25px;
+  flex: 0.1;
+}
+
+footer .firstRow p {
   text-align: left;
 }
 
-footer .firstRow .column ul {
+footer .firstRow ul {
   list-style: none;
 }
 
-footer .firstRow .column li {
+footer .firstRow li {
   color: #aaaaaa;
 }
 
+footer .firstRow .icon {
+  margin: 5px;
+  width: 60px;
+  height: auto;
+  fill: #ffffff;
+  transition: ease-in-out 0.3s;
+}
+
+footer .firstRow .column .icon:hover {
+  fill: #0e76cc;
+}
+
+footer .break {
+  height: 1px;
+  width: 90%;
+  background-color: #222222;
+}
+
 footer .secondRow {
+  padding: 25px;
   font-size: 12px;
   color: #aaaaaa;
 }
 
 @media only screen and (max-width: 768px) {
   footer .firstRow {
+    height: auto;
     flex-direction: column;
+  }
+
+  footer .firstRow .column {
+    flex: auto;
   }
 }

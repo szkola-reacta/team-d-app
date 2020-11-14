@@ -1,4 +1,4 @@
-footer {
+.footer {
   height: auto;
   background-color: #0e0e0e;
   color: #ffffff;
@@ -7,66 +7,36 @@ footer {
   align-items: center;
 }
 
-footer .firstRow {
+.footer__firstRow {
   height: 90%;
   padding: 50px;
   display: flex;
   justify-content: space-around;
 }
 
-footer .firstRow .column {
-  margin: 25px;
-  flex: 0.3;
-}
-
-footer .firstRow .narrowColumn {
-  margin: 25px;
-  flex: 0.1;
-}
-
-footer .firstRow p {
+/* to be deleted after Nav is reworked for use in Footer component as well */
+.footer__firstRow p {
   text-align: left;
 }
 
-footer .firstRow ul {
+.footer__firstRow ul {
   list-style: none;
 }
 
-footer .firstRow li {
+.footer__firstRow li {
   color: #aaaaaa;
 }
+/* -- */
 
-footer .firstRow .icon {
-  margin: 5px;
-  width: 60px;
-  height: auto;
-  fill: #ffffff;
-  transition: ease-in-out 0.3s;
-}
-
-footer .firstRow .column .icon:hover {
-  fill: #0e76cc;
-}
-
-footer .break {
-  height: 1px;
-  width: 90%;
-  background-color: #222222;
-}
-
-footer .secondRow {
+.footer__secondRow {
   padding: 25px;
   font-size: 12px;
   color: #aaaaaa;
 }
 
 @media only screen and (max-width: 768px) {
-  footer .firstRow {
+  .footer__firstRow {
     height: auto;
     flex-direction: column;
-  }
-
-  footer .firstRow .column {
-    flex: auto;
   }
 }

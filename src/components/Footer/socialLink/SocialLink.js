@@ -1,9 +1,11 @@
 import React from 'react';
 
+import './style.css';
+
 function SocialLink({to, Icon}) {
     return (
        <a href={to} target="_blank" rel="noopener noreferrer">
-           <Icon className="icon" />
+           <Icon className="socialLink__icon" />
        </a>
     );
 }

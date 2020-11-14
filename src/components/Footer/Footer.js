@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Break, FooterSection } from './';
+import { Break, FooterSection, SocialLink } from './';
 import { ReactComponent as GitHub } from '../../assets/github.svg';
 import './style.css';
 
@@ -25,9 +25,8 @@ function Footer() {
                         Space, the final frontier. These are the voyages of the Starship Enterprise. Its five-year mission: to explore strange new worlds, to seek out new life and new civilizations, to boldly go where no man has gone before.
                     </p>
                 </FooterSection>
-                <FooterSection className="column" title="Social links">
-                    <GitHub className="icon" />
-                    <GitHub className="icon" />
+                <FooterSection className="narrowColumn" title="Social links">
+                    <SocialLink to="https://github.com/szkola-reacta/team-d-app" Icon={GitHub} />
                 </FooterSection>
             </div>
             <Break />

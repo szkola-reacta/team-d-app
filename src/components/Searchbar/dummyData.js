@@ -1,4 +1,4 @@
-const atractions = [
+const attractions = [
   {
     title: "Nazwa miejsca",
     description: "Opis miejsca",
@@ -29,4 +29,4 @@ const atractions = [
   },
 ];
 
-export default atractions;
+export default attractions;

@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import ResultField from "./ResultField";
 import InputField from "./InputField";
 import ClearInput from "./ClearInput";
-import atractions from "./dummyData"; // podmień na dumm data z projektu kiedy powstanie
+import attractions from "./dummyData"; // podmień na dumm data z projektu kiedy powstanie
 import "./searchbar.css";
 
 const Searchbar = () => {
@@ -11,7 +11,7 @@ const Searchbar = () => {
 
   const handleChange = (e) => {
     setSearchInput(e.target.value);
-    setatractionList(atractions);
+    setatractionList(attractions);
   };
 
   const clearInput = (e) => {
@@ -19,23 +19,20 @@ const Searchbar = () => {
   };
 
   return (
-    <>
-      <div className="searchbar">
-        {/* input field  */}
-        <InputField searchInput={searchInput} handleChange={handleChange} />
-        {/* result field */}
-        {searchInput.length > 0 ? (
-          <>
-            <ResultField
-              atractionList={atractionList}
-              searchInput={searchInput}
-            />
-            {/* close button  */}
-            <ClearInput clearInput={clearInput} />
-          </>
-        ) : null}
-      </div>
-    </>
+    <div className="searchbar">
+      <InputField searchInput={searchInput} handleChange={handleChange} />
+
+      {searchInput.length > 0 ? (
+        <>
+          <ResultField
+            atractionList={atractionList}
+            searchInput={searchInput}
+          />
+
+          <ClearInput clearInput={clearInput} />
+        </>
+      ) : null}
+    </div>
   );
 };
 

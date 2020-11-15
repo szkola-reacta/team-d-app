@@ -59,7 +59,7 @@ const renderCard = (card, id) => {
   );
 };
 
-export default function cards() {
+export default function placelist() {
   console.log(poligondata);
   return <>{poligondata.map(renderCard)}</>;
 }

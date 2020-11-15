@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
-import Cards from "./data/Cards";
+import PlaceList from "./data/PlaceList";
 import "./App.css";
 import { Header } from "./components/Header";
 
@@ -13,7 +13,7 @@ function App() {
         <Switch>
           <Route path="/" exact>
             Home
-            <Cards />
+            <PlaceList />
           </Route>
           <Route path="/about">About</Route>
           <Route path="/places">Places</Route>

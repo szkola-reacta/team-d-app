@@ -22,7 +22,7 @@ const Searchbar = () => {
     <div className="searchbar">
       <InputField searchInput={searchInput} handleChange={handleChange} />
 
-      {searchInput.length > 0 ? (
+      {searchInput.length !== 0 && (
         <>
           <ResultField
             atractionList={atractionList}
@@ -31,7 +31,7 @@ const Searchbar = () => {
 
           <ClearInput clearInput={clearInput} />
         </>
-      ) : null}
+      )}
     </div>
   );
 };

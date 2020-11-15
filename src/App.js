@@ -1,10 +1,10 @@
-import React from 'react';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import React from "react";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 import PlaceList from "./data/PlaceList";
-import { Header } from './components/Header';
-import { Footer } from './components/Footer';
-import './App.css';
+import SearchPlaceList from "./data/SearchPlaceList";
+import "./App.css";
+import { Header } from "./components/Header";
 
 function App() {
   return (
@@ -14,13 +14,11 @@ function App() {
         <Switch>
           <Route path="/" exact>
             Home
-            <PlaceList />
+            <SearchPlaceList />
           </Route>
           <Route path="/about">About</Route>
           <Route path="/places">Places</Route>
         </Switch>
-
-        <Footer />
       </div>
     </Router>
   );

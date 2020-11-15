@@ -1,5 +1,5 @@
-export { default as FooterBreak } from './footerBreak/FooterBreak';
-export { default as FooterSection } from './footerSection/FooterSection';
-export { default as SocialLink } from './socialLink/SocialLink';
+export { default as FooterBreak } from './FooterBreak';
+export { default as FooterSection } from './FooterSection';
+export { default as SocialLink } from './SocialLink';
 
 export { default as Footer } from './Footer';

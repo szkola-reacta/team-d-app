@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import ResultField from "./ResultField";
-import CloseButton from "./CloseButton";
+import InputField from "./InputField";
+import ClearInput from "./ClearInput";
 import atractions from "./dummyData"; // podmień na dumm data z projektu kiedy powstanie
 import "./searchbar.css";
 
@@ -21,12 +22,7 @@ const Searchbar = () => {
     <>
       <div className="searchbar">
         {/* input field  */}
-        <input
-          className="searchbar__input"
-          value={searchInput}
-          placeholder={"Wyszukaj po nazwie miejsca.."}
-          onChange={handleChange}
-        />
+        <InputField searchInput={searchInput} handleChange={handleChange} />
         {/* result field */}
         {searchInput.length > 0 ? (
           <>
@@ -35,7 +31,7 @@ const Searchbar = () => {
               searchInput={searchInput}
             />
             {/* close button  */}
-            <CloseButton clearInput={clearInput} />
+            <ClearInput clearInput={clearInput} />
           </>
         ) : null}
       </div>

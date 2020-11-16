@@ -1,5 +1,6 @@
 import React from 'react';
 import NavItem from './NavItem';
+import './style.css';
 
 const List = [
   {
@@ -19,9 +20,9 @@ const List = [
   },
 ];
 
-function NavList({ openMenu }) {
+function NavList({ showMenu }) {
   return (
-    <ul className={`navList ${openMenu}`}>
+    <ul className={showMenu}>
       {List.map((el) => (
         <NavItem key={`link-${el.id}`} linkName={el.linkName} to={el.path} />
       ))}

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import ResultField from "./ResultField";
 import InputField from "./InputField";
 import ClearInput from "./ClearInput";
@@ -7,11 +7,11 @@ import "./searchbar.css";
 
 const Searchbar = () => {
   const [searchInput, setSearchInput] = useState("");
-  const [atractionList, setatractionList] = useState([]);
+  const [attractionList, setattractionList] = useState([]);
 
   const handleChange = (e) => {
     setSearchInput(e.target.value);
-    setatractionList(attractions);
+    setattractionList(attractions);
   };
 
   const clearInput = (e) => {
@@ -25,7 +25,7 @@ const Searchbar = () => {
       {searchInput.length !== 0 && (
         <>
           <ResultField
-            atractionList={atractionList}
+            attractionList={attractionList}
             searchInput={searchInput}
           />
 

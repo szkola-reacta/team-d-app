@@ -19,9 +19,9 @@ const List = [
   },
 ];
 
-function NavList({ ref, openMenu }) {
+function NavList({ openMenu }) {
   return (
-    <ul className={`navList ${openMenu}`} ref={ref}>
+    <ul className={`navList ${openMenu}`}>
       {List.map((el) => (
         <NavItem key={`link-${el.id}`} linkName={el.linkName} to={el.path} />
       ))}

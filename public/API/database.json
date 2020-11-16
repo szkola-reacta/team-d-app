@@ -1,0 +1,283 @@
+[
+    {
+        "title": "Dwór Altusa",
+        "description": "Legendy, tajemnice oraz zwyczaje rycerzy i gdańskich kupców.",
+        "foto_url": "https://lh5.googleusercontent.com/-JqU6fzbPOiQ/UdVfN3zs5WI/AAAAAAAAJKY/2DhsaPBuGIg/s1024/IMG_2746.JPG",
+        "price": "20",
+        "city": "Gdańsk",
+        "category": "museum",
+        "address": "Długi Targ 43-44",
+        "rate": "4.5"
+    },
+    {
+        "title": "Zamek w Będzinie",
+        "description": "Średniowieczna warownia obronna wzniesiona w połowie XIV wieku przez Kazimierza Wielkiego w systemie tzw. Orlich Gniazd.",
+        "foto_url": "https://lh6.googleusercontent.com/-61gKkb4pJvg/UA2hFU4feoI/AAAAAAAAFxQ/xxyoMioDwmo/s800/IMG_1979.JPG",
+        "price": "15",
+        "city": "Będzin",
+        "category": "castle",
+        "address": "Zamkowa 1",
+        "rate": "4.3"
+    },
+    {
+        "title": "Biskupin",
+        "description": "Odkrycie osady było jednym z najważniejszych wydarzeń w dziejach polskiej i europejskiej archeologii.",
+        "foto_url": "https://lh5.googleusercontent.com/-FRhq3rdGAtI/UPReDoMaX1I/AAAAAAAAD5s/akuUH6pltJs/s800/IMG_0767.JPG",
+        "price": "13",
+        "city": "Biskupin",
+        "category": "castle",
+        "address": "Biskupin 3",
+        "rate": "3.5"
+    },
+    {
+        "title": "Zamek Bobolice",
+        "description": "Zamek królewski zbudowany pierwotnie w połowie XIV wieku i następnie przebudowywany. Położony jest na Jurze Krakowsko-Częstochowskiej, w systemie tzw. Orlich Gniazd.",
+        "foto_url": "https://lh4.googleusercontent.com/-UBLY_Bo66mc/UFDjS9oA6cI/AAAAAAAAIdU/WILHIr-J2FA/s800/IMG_2075.JPG",
+        "price": "17",
+        "city": "Bobolice",
+        "category": "castle",
+        "address": "Bobolice 1",
+        "rate": "4.9"
+    },
+    {
+        "title": "Kopalnia soli Bochnia",
+        "description": "Nieczynna kopalnia soli w Bochni, w Polsce, w której eksploatację prowadzono od 1251 do 1990 roku.",
+        "foto_url": "https://lh3.googleusercontent.com/-LOqKiI6hmoA/VpIszxEQ5NI/AAAAAAAArpw/t8DMMSXuyI4/w1200-Ic42/Ruszaj_w_Droge_Malopolska_Nieoczywista_Walet-5.jpg",
+        "price": "10",
+        "city": "Bochnia",
+        "category": "mine",
+        "address": "Campi 15",
+        "rate": "4.1"
+    },
+    {
+        "title": "Drewniany Meczet w Bohonikach",
+        "description": "Jeden z pięciu – obok meczetu w Kruszynianach, Warszawie, Poznaniu i Gdańsku – czynnych meczetów w Polsce. Znajduje się we wsi Bohoniki.",
+        "foto_url": "https://3.bp.blogspot.com/-JBKR_F5HdRw/WPUy6DD3BBI/AAAAAAAACvM/EmIPsPVctwAKwvqNiQH2piPC1aph7j6CACK4B/w1600/IMG_3454-Bohoniki-fburl.jpg",
+        "price": "5",
+        "city": "Bohoniki",
+        "category": "mosque",
+        "address": "Bohoniki",
+        "rate": "2.5"
+    },
+    {       
+        "title": "Muzeum Bursztynu w Gdańsku",
+        "description": "Muzeum rzemiosła w Gdańsku, założone w 2000 roku, oddział Muzeum Gdańska; dokumentuje historię bursztynu i dzieje bursztyniarstwa w Polsce.",
+        "foto_url": "https://lh5.googleusercontent.com/-aBsqSXpd2h8/UaTewX-bYKI/AAAAAAAAGr8/kks9gvUJZaE/s1024/IMG_2836.JPG",
+        "price": "7",
+        "city": "Gdańsk",
+        "category": "museum",
+        "address": "Targ Węglowy 26",
+        "rate": "4.4"
+    },
+    {   
+        "title": "Połonina Caryńska",
+        "description": "Jedna z połonin w Bieszczadach, masyw górski położony między dolinami Prowczy i Wołosatego, w których leżą miejscowości Brzegi Górne i Ustrzyki Górne.",
+        "foto_url": "https://2.bp.blogspot.com/-fRDlO2ies40/XHankqPlV7I/AAAAAAAASSc/X6oKlWvsgTQw996AwLAJecF7ML-P9BPDQCLcBGAs/w1600/IMG_0544-polonina-carynska.jpg",
+        "price": "0",
+        "city": "Stuzica",
+        "category": "mountains",
+        "address": "Stuzica - Bieszczady",
+        "rate": "3.0"
+    },
+    {     
+        "title": "Zamek Chojnik",
+        "description": "Zamek usytuowany nieopodal Jeleniej Góry-Sobieszowa, na szczycie góry Chojnik w Karkonoszach. Góra ta wznosi się na wysokość 627 metrów n.p.m.",
+        "foto_url": "https://lh6.googleusercontent.com/_HK_ZrtI6qLQ/TX5cVZYSt-I/AAAAAAAAEeQ/AwdUNeBTgT8/s800/IMG_0927a.jpg",
+        "price": "5",
+        "city": "Jelenia Góra",
+        "category": "castle",
+        "address": "Bronka Czecha",
+        "rate": "4.7"
+    },
+    {      
+        "title": "Pracownia Ceramiki Kaszubskiej",
+        "description": "Już dziesięć pokoleń Neclów wykonuje wyroby z gliny! W Chmielnie osiadł Franciszek Necel, który był przedstawicielem siódmego pokolenia tej rodziny.",
+        "foto_url": "https://lh3.googleusercontent.com/-QjFGrnZBTCs/UqShwrRoqxI/AAAAAAAAPag/-3AiWgP3XpA/s1024/IMG_5216%2520-%2520Muzeum%2520Ceramiki%2520Necl%25C3%25B3w.JPG",
+        "price": "5",
+        "city": "Chmielno",
+        "category": "museum",
+        "address": "Gryfa Pomorskiego 65",
+        "rate": "3.1"
+    },
+    {      
+        "title": "Centrum Edukacji i Kultury Szklany Dom",
+        "description": "Dworek Stefana Żeromskiego w Ciekotach to miejsce stanowiące bramę w Góry Świętokrzyskie, w ofercie swojej odnoszące się do idei wielkiego pisarza, społecznika i regionalisty Stefana Żeromskiego.",
+        "foto_url": "",
+        "price": "5",
+        "city": "Ciekoty",
+        "category": "mansion",
+        "address": "Ciekoty 76",
+        "rate": "3.7"
+    },
+    {     
+        "title": "Zamek Czocha",
+        "description": "Imponujący hotel w XIII-wiecznym zamku z klasycznymi pokojami, śniadaniem w cenie i elegancką restauracją.",
+        "foto_url": "https://lh4.googleusercontent.com/-SJTgsbyfl20/UOSvwQXiNPI/AAAAAAAADtE/WrPqERI97Co/w1200/IMG_1499.jpg",
+        "price": "200",
+        "city": "Leśna",
+        "category": "hotel SPA",
+        "address": "Sucha",
+        "rate": "4.6"
+    },
+    {     
+        "title": "Fabryka Porcelany AS Ćmielów",
+        "description": "Pan Adam Spała kupuje fabrykę porcelany. Fabryka nie funkcjonuje, budynki to ruina, większość form do wyrobu figurek zniszczona. Pan Adam zakasa rękawy. Postanawia: tu będzie moja fabryka.",
+        "foto_url": "https://lh3.googleusercontent.com/-fXNSb94NFNc/UcgaMO3e_uI/AAAAAAAAHk0/c5CW33tfcJ4/s1024/IMG_5719.JPG",
+        "price": "7",
+        "city": "Ćmielów",
+        "category": "museum",
+        "address": "Sandomierska 243",
+        "rate": "3.6"
+    },
+    {      
+        "title": "Jarmark św. Dominika",
+        "description": "Jarmark św. Dominika – impreza handlowo-kulturalna odbywająca się w różnych miejscach w Polsce, w miastach pracy duszpasterskiej Zakonu Kaznodziejskiego i związana najczęściej z obchodami świąt świętego Dominika i świętego Jacka.",
+        "foto_url": "https://lh4.googleusercontent.com/-bIJweHBDoNM/UDKFxWPgYqI/AAAAAAAABCo/W3RZcPqv_1A/s800/IMG_7376.JPG",
+        "price": "0",
+        "city": "Gdańsk",
+        "category": "market",
+        "address": "Targ Węglowy",
+        "rate": "3.1"
+    },
+    {      
+        "title": "Ratusz w Gdańsku",
+        "description": "Zabytkowy ratusz na Głównym Mieście w Gdańsku. Jest to gotycko-renesansowa budowla, usytuowana na styku ulicy Długiej i Długiego Targu.",
+        "foto_url": "https://lh4.googleusercontent.com/-PCV6l7_FmS8/UdHToGBy0iI/AAAAAAAAJCQ/J6CVQU_6thM/s1024/IMG_2670.JPG",
+        "price": "0",
+        "city": "Gdańsk",
+        "category": "town hall",
+        "address": "Długa 46",
+        "rate": "3.2"
+    },
+    {      
+        "title": "Twierdza Wisłoujście w Gdańsku",
+        "description": "Zabytkowa twierdza w Gdańsku nad Martwą Wisłą, dawniej położona przy głównym wejściu do portu gdańskiego przy ujściu głównego ramienia Wisły do Morza Bałtyckiego.",
+        "foto_url": "https://lh4.googleusercontent.com/-Y2dshsAq774/Ulznz3iIQEI/AAAAAAAAMqk/4bc9gpXVPfI/s1024/IMG_4148%20Gdansk%20Twierdza%20Wisloujscie.JPG",
+        "price": "8",
+        "city": "Gdańsk",
+        "category": "castle",
+        "address": "Stara Twierdza 1",
+        "rate": "4.0"
+    },
+    {     
+        "title": "Schron przeciwlotniczy w Gdyni",
+        "description": "Schron zajmuje powierzchnię 170 m2 i posiada 7 pomieszczeń. Połączony jest zasypanem korytarzem z drugim schronem odległym o 100 metrów.",
+        "foto_url": "https://lh5.googleusercontent.com/-zBYcp0AoxM4/UBQB94GVczI/AAAAAAAAAiQ/t99P-cKmpls/s800/IMG_7047.JPG",
+        "price": "0",
+        "city": "Gdynia",
+        "category": "shelter",
+        "address": "Morska 189",
+        "rate": "4.5"
+    },
+    {     
+        "title": "Zamek Grodziec",
+        "description": "Późnogotycki zamek położony w pobliżu wsi Grodziec, w gminie Zagrodno, powiecie złotoryjskim, województwie dolnośląskim, na szczycie wzniesienia o tej samej nazwie. ",
+        "foto_url": "https://lh6.googleusercontent.com/-OMuksEp2NgE/Tgc4wH7yseI/AAAAAAAAEko/jESSs0rD8jc/s1024/Grodziec%2525201.jpg",
+        "price": "5",
+        "city": "Grodziec",
+        "category": "castle",
+        "address": "Grodziec 111",
+        "rate": "4.2"
+    },
+    {
+        "title": "Jaskinia Łokietka i Ciemna",
+        "description": "Jaskinia krasowa o rozwinięciu poziomym w Dolinie Sąspowskiej w północno-zachodnim zboczu Chełmowej Góry w obrębie Ojcowskiego Parku Narodowego, udostępniona dla ruchu turystycznego.",
+        "foto_url": "https://lh4.googleusercontent.com/-oNaM-eFW-tU/UMS-A16otNI/AAAAAAAADYI/gDBaloFGAq4/s1200/Jaskinia%20%C5%81okietka.jpg",
+        "price": "5",
+        "city": "Gmina Skała w pobliżu wsi Ojców",
+        "category": "cave",
+        "address": "Ojców",
+        "rate": "3.6"
+    },
+    {
+        "title": "Jaskinia Niedźwiedzia w Kletnie",
+        "description": "Jaskinię odkryto przypadkowo w 1966 roku podczas prac w kamieniołomie. Odłupana skała odsłoniła komorę z licznymi szczątkami zwierząt.",
+        "foto_url": "https://lh4.googleusercontent.com/-OknXWNymQjs/UMTD8UY-xGI/AAAAAAAADZQ/uXa4HzpCFyg/s800/IMG_2855.JPG",
+        "price": "5",
+        "city": "Kletno",
+        "category": "cave",
+        "address": "Kletno",
+        "rate": "3.9"
+    },
+    {
+        "title": "Kaszubski Park Miniatur",
+        "description": "Park w Stryszej Budzie z modelami w skali 1:25 znanych obiektów z Kaszub jak również z całej Polski i ze świata.",
+        "foto_url": "https://lh6.googleusercontent.com/-uOz4lTcfeY0/UZvWn3bnPBI/AAAAAAAAGhQ/eXm1WE6Hlo8/s1024/IMG_4196.JPG",
+        "price": "15",
+        "city": "Strysza Buda",
+        "category": "park",
+        "address": "Kartuska 30",
+        "rate": "4.2"
+    },
+    {
+        "title": "Muzeum Kaszubskie",
+        "description": "Muzeum Kaszubskie im. Franciszka Tredera w Kartuzach to muzeum w Kartuzach zajmujące się gromadzeniem eksponatów związanych z Kaszubami i zamieszkującą je grupą etniczną.",
+        "foto_url": "https://lh4.googleusercontent.com/-bfDWge0cOSM/UqSiz7p4yDI/AAAAAAAARS8/54jvUH8K3Cc/s1024/IMG_5422++Muzeum+Kaszubskie+Kartuzy.JPG",
+        "price": "10",
+        "city": "Kartuzy",
+        "category": "museum",
+        "address": "Kościerska 1",
+        "rate": "3.4"
+    },
+    {
+        "title": "Muzeum Zabawy i Zabawek",
+        "description": "Muzeum Zabawek i Zabawy w Kielcach powstało w 1979 roku jako Muzeum Zabawkarstwa. Posiada ogromną kolekcję zabawek zarówno historycznych, jak i współczesnych.",
+        "foto_url": "https://2.bp.blogspot.com/-zqNDG_drgBA/WO5UupljtMI/AAAAAAAACj0/nEDv7IhQsrcR2kUnpVVuHQpOZtsP9C_ywCK4B/w1600/IMG_8533-fburl.jpg",
+        "price": "5",
+        "city": "Kielce",
+        "category": "museum",
+        "address": "plac Wolności 2",
+        "rate": "4.8"
+    },
+    {
+        "title": "Zamek Kamieniec",
+        "description": "Zachowane ruiny gotyckiej XIV-wiecznej, rozbudowanej w stylu renesansowym w XVI wieku budowli na pograniczu Korczyny i Odrzykonia, w powiecie krośnieńskim.",
+        "foto_url": "https://lh4.googleusercontent.com/-M1qEDwwmZek/ToDc-80gxRI/AAAAAAAAEsQ/UcHzTt3DEII/s1200/Kamieniec%2525202.jpg",
+        "price": "7",
+        "city": "Korczyna",
+        "category": "castle",
+        "address": "Podzamcze B/N",
+        "rate": "5.0"
+    },
+    {
+        "title": "Pacanów",
+        "description": "Błąkając się po Polsce szukając ciekawych i wyjątkowych miejsc, aż trafiliśmy do Pacanowa. Któż z nas nie zna przygód przesympatycznego Koziołka Matołka czy małej Małpki Fiki – Miki?",
+        "foto_url": "https://lh6.googleusercontent.com/-QA0OZwdSlIM/UCfH9CaqIJI/AAAAAAAAA8I/Czb5CQphMEc/s800/IMG_8011.JPG",
+        "price": "0",
+        "city": "Pacanów",
+        "category": "city",
+        "address": "Pacanów",
+        "rate": "10.0"
+    },
+    {
+        "title": "Zamek Rabsztyn",
+        "description": "Ruiny zamku wybudowanego na Wzgórzu Rabsztyńskim na Wyżynie Krakowsko-Częstochowskiej we wsi Rabsztyn w województwie małopolskim, w powiecie olkuskim. Wchodził w skład tzw. Orlich Gniazd.",
+        "foto_url": "https://lh5.googleusercontent.com/-Bm3cYb6b3aw/T7aK1G2izhI/AAAAAAAAFSU/NYaDUJfdSWU/s1200/Rabsztyn.jpg",
+        "price": "6",
+        "city": "Rabsztyn",
+        "category": "castle",
+        "address": "Zamek",
+        "rate": "4.3"
+    },
+    {
+        "title": "Muzeum Wyrzutnia Rakiet",
+        "description": "Muzeum mieści się na dawnym poligonie rakietowym, powstałym w 1940 roku. Podczas II wojny światowej, w latach 1940-1945 Niemcy prowadzili tu próby z pociskami rakietowymi w ramach projektów Rheintochter oraz Rheinbote (V4).",
+        "foto_url": "https://lh5.googleusercontent.com/-s3keVDKWm4g/Untl53ry3fI/AAAAAAAANis/Zm2M38sBe6Q/s1024/IMG_4080%20Muzeum%20Wyrzutnia%20Rakiet%20%C5%81eba.jpg",
+        "price": "11",
+        "city": "Łeba",
+        "category": "museum",
+        "address": "Łeba",
+        "rate": "2.1"
+    },
+    {
+        "title": "Kompleks Riese",
+        "description": "Wykopana dla nazistów przez więźniów podziemna sieć tuneli i pomieszczeń – obiekt nieznanego przeznaczenia.",
+        "foto_url": "https://lh5.googleusercontent.com/-ScH-9gP9cKo/URKMIt1MZqI/AAAAAAAAESk/SLfShmpiYFo/s800/Riese%20poczt%C3%B3wka.jpg",
+        "price": "7",
+        "city": "Sierpnica",
+        "category": "cave",
+        "address": "Swierkowa 29d",
+        "rate": "4.0"
+    }
+]
+

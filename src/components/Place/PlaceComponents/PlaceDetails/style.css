@@ -1,0 +1,35 @@
+/*variables
+*
+  $card-border-color:
+
+
+
+*/
+
+.Card__Container__title {
+  text-align: left;
+  padding-bottom: 5px;
+  font-size: 1.2rem;
+}
+/*Photo section*************/
+.photoContent {
+  width: 100%;
+  border: 1px solid #aaa;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.photoContent__item {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  height: auto;
+}
+/*Description section*************/
+.Card__Container__description__item {
+  text-align: left;
+  font-size: 1rem;
+}
+.Card__Container__description__item:first-child {
+  padding-top: 10px;
+  padding-bottom: 5px;
+}

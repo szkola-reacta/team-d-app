@@ -1,9 +1,10 @@
 import './App.css';
+import { Place } from './components/Place';
 
 function App() {
   return (
     <div className='App'>
-      <h1>Team D App</h1>
+      <Place />
     </div>
   );
 }

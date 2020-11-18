@@ -20,11 +20,16 @@ const List = [
   },
 ];
 
-function NavList({ showMenu }) {
+function NavList({ navListClass, defaultClass }) {
   return (
-    <ul className={showMenu}>
+    <ul className={`${defaultClass} ${navListClass}`}>
       {List.map((el) => (
-        <NavItem key={`link-${el.id}`} linkName={el.linkName} to={el.path} />
+        <NavItem
+          key={`link-${el.id}`}
+          linkName={el.linkName}
+          to={el.path}
+          navLinkClass="navLinkDefault"
+        />
       ))}
     </ul>
   );

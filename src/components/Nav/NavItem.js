@@ -1,10 +1,11 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
-function NavItem({ to, linkName }) {
+function NavItem(props) {
+  const { to, linkName, navLinkClass } = props;
   return (
     <li className="navItem">
-      <NavLink to={to} className="navLink">
+      <NavLink to={to} className={navLinkClass}>
         {linkName}
       </NavLink>
     </li>

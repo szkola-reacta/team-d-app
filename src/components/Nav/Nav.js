@@ -17,7 +17,8 @@ function Nav() {
       <Logo />
       <NavIcon icon={isActive ? cross : hamburger} onClick={handleClick} />
       <NavList
-        showMenu={isActive ? 'navList navListActive' : 'navList navListHidden'}
+        defaultClass="navListDefault"
+        navListClass={isActive ? 'navListActive' : 'navListHidden'}
       />
     </nav>
   );

@@ -11,35 +11,40 @@
     padding: 15px 25px;
 }
 
-.navList {
-    width: 100%;
-    height: 100vh;
+.navListDefault {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     list-style: none;
+}
+
+.navListActive {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
     background-color: #05445E;
 }
 
 .navListHidden {
+    width: 100%;
+    height: 100vh;
     position: absolute;
     top: -100vh;
     left: 0;
+    background-color: #05445E;
 }
 
-.navListActive {
-    position: absolute;
-    top: 0;
-    left: 0;
-}
+
 
 .navItem {
     padding: 5px 10px;
     margin: 0 15px;
 }
 
-.navLink {
+.navLinkDefault {
     font-size: 20px;
     letter-spacing: 2px;
     font-weight: 700;

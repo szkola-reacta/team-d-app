@@ -14,19 +14,24 @@
   justify-content: space-around;
 }
 
-/* to be deleted after Nav is reworked for use in Footer component as well */
-.footer__firstRow p {
-  text-align: left;
-}
-
-.footer__firstRow ul {
+.menu {
   list-style: none;
 }
 
-.footer__firstRow li {
+.menu__link {
   color: #aaaaaa;
+  text-transform: capitalize;
+  text-decoration: none;
+  transition: ease-in-out 0.3s;
 }
-/* -- */
+
+.menu__link:hover {
+  color: #0e76cc;
+}
+
+.footer__paragraph {
+  text-align: left;
+}
 
 .footer__secondRow {
   padding: 25px;

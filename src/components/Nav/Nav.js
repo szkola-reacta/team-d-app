@@ -19,6 +19,7 @@ function Nav() {
       <NavList
         defaultClass="navListDefault"
         navListClass={isActive ? 'navListActive' : 'navListHidden'}
+        navLinkClass="navLinkDefault"
       />
     </nav>
   );

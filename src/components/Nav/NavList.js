@@ -20,7 +20,7 @@ const List = [
   },
 ];
 
-function NavList({ navListClass, defaultClass }) {
+function NavList({ navListClass, defaultClass, navLinkClass }) {
   return (
     <ul className={`${defaultClass} ${navListClass}`}>
       {List.map((el) => (
@@ -28,7 +28,7 @@ function NavList({ navListClass, defaultClass }) {
           key={`link-${el.id}`}
           linkName={el.linkName}
           to={el.path}
-          navLinkClass="navLinkDefault"
+          navLinkClass={navLinkClass}
         />
       ))}
     </ul>

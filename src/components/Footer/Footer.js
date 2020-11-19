@@ -1,7 +1,7 @@
 import React from 'react';
 
-import { FooterBreak, FooterSection, SocialLink } from './';
-import { ReactComponent as GitHub } from '../../assets/github.svg';
+import { FooterBreak, FooterSection, SocialLink } from 'components/Footer';
+import { ReactComponent as GitHub } from 'assets/github.svg';
 import './style.css';
 
 const REPO_URL = 'https://github.com/szkola-reacta/team-d-app';

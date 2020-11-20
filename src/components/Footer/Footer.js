@@ -1,8 +1,9 @@
 import React from 'react';
 
-import NavList from '../Nav/NavList';
-import { FooterBreak, FooterSection, SocialLink } from './';
-import { ReactComponent as GitHub } from '../../assets/github.svg';
+import NavList from 'components/Nav/NavList';
+import { FooterBreak, FooterSection, SocialLink } from 'components/Footer';
+import { ReactComponent as GitHub } from 'assets/github.svg';
+
 import './style.css';
 
 const REPO_URL = 'https://github.com/szkola-reacta/team-d-app';

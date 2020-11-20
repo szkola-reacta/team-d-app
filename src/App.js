@@ -6,12 +6,12 @@ import {
   Redirect,
 } from 'react-router-dom';
 
-import { Header } from './components/Header';
-import { Footer } from './components/Footer';
-import { PageNotFound } from './components/PageNotFound';
-import Searchbar from "./components/Searchbar/Searchbar.js";
+import { Header } from 'components/Header';
+import { Footer } from 'components/Footer';
+import { PageNotFound } from 'components/PageNotFound';
+import Searchbar from "components/Searchbar/Searchbar.js";
 
-import './App.css';
+import 'App.css';
 
 function App() {
   return (

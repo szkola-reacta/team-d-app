@@ -26,7 +26,7 @@ useEffect(() => {
 }, [])
 
 
-    return <><PlaceContainer apiData={apiData}/></>
+    return <PlaceContainer apiData={apiData}/>
 }
 
 export default Place;

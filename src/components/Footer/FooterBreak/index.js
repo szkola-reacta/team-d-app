@@ -1,1 +1,1 @@
-export {default} from './FooterBreak';
+export { default } from './FooterBreak';

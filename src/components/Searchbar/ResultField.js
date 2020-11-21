@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 const LocationList = ({ attractionList, searchInput }) => {
   searchInput = searchInput.toLowerCase();

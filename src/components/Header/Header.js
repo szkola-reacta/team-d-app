@@ -4,7 +4,7 @@ import './style.css';
 
 function Header() {
   return (
-    <div className="header">
+    <div className='header'>
       <Nav />
     </div>
   );

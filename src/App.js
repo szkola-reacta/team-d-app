@@ -7,6 +7,7 @@ import {
 } from 'react-router-dom';
 
 import { Header } from 'components/Header';
+import { About } from 'containers';
 import { Footer } from 'components/Footer';
 import { PageNotFound } from 'components/PageNotFound';
 import Searchbar from 'components/Searchbar/Searchbar.js';
@@ -23,7 +24,9 @@ function App() {
             <Searchbar />
             Home
           </Route>
-          <Route path="/about">About</Route>
+          <Route path="/about">
+            <About />
+          </Route>
           <Route path="/places">Places</Route>
           <Route
             path="/page-not-found"

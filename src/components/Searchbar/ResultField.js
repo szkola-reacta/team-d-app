@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 const LocationList = ({ attractionList, searchInput }) => {
   searchInput = searchInput.toLowerCase();
@@ -11,7 +11,7 @@ const LocationList = ({ attractionList, searchInput }) => {
     ))
     .slice(0, 5);
 
-  return <div className="searchbar__result">{locationList}</div>;
+  return <div className='searchbar__result'>{locationList}</div>;
 };
 
 export default LocationList;

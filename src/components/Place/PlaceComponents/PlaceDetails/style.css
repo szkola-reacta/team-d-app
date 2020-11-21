@@ -1,4 +1,4 @@
-.Card__Container__Title {
+.Card__Title {
   text-align: left;
   padding-bottom: 5px;
   font-size: 1.2rem;
@@ -17,11 +17,11 @@
   height: auto;
 }
 
-.Card__Container__Description__Item {
+.Card__Item {
   text-align: left;
   font-size: 1rem;
 }
-.Card__Container__Description__Item:first-child {
+.Card__Item:first-child {
   padding-top: 10px;
   padding-bottom: 5px;
 }

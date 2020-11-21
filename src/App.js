@@ -7,11 +7,9 @@ import {
 } from 'react-router-dom';
 
 import { Header } from 'components/Header';
-import { About } from 'containers';
 import { Footer } from 'components/Footer';
 import { PageNotFound } from 'components/PageNotFound';
-import Searchbar from 'components/Searchbar/Searchbar.js';
-
+import { About, Home } from 'containers';
 import 'App.css';
 
 function App() {
@@ -22,13 +20,11 @@ function App() {
 
         <Switch>
           <Route path='/' exact>
-            <Searchbar />
-            Home
+            <Home />
           </Route>
           <Route path='/about'>
             <About />
           </Route>
-          <Route path='/places'>Places</Route>
           <Route
             path='/page-not-found'
             render={() => <PageNotFound path='/' />}

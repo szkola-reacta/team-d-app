@@ -17,25 +17,23 @@ import 'App.css';
 function App() {
   return (
     <Router>
-      <div className='App'>
+      <div className="App">
         <Header />
-
         <Switch>
-          <Route path='/' exact>
+          <Route path="/" exact>
             <Searchbar />
             Home
           </Route>
-          <Route path='/about'>
+          <Route path="/about">
             <About />
           </Route>
-          <Route path='/places'>Places</Route>
+          <Route path="/places">Places</Route>
           <Route
-            path='/page-not-found'
-            render={() => <PageNotFound path='/' />}
+            path="/page-not-found"
+            render={() => <PageNotFound path="/" />}
           />
-          <Redirect to='page-not-found' />
+          <Redirect to="page-not-found" />
         </Switch>
-
         <Footer />
       </div>
     </Router>

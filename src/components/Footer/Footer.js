@@ -7,7 +7,7 @@ import { ReactComponent as GitHub } from 'assets/github.svg';
 import './style.css';
 
 const REPO_URL = 'https://github.com/szkola-reacta/team-d-app';
-const COPYRIGHT = `Copyright © 2s020 Szkoła Reacta's Team D. All Rights Reserved.`;
+const COPYRIGHT = `Copyright © 2020 Szkoła Reacta's Team D. All Rights Reserved.`;
 
 function Footer() {
   return (

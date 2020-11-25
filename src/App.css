@@ -2,7 +2,6 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: arial;
 }
 
 .App {
@@ -10,4 +9,5 @@
   min-height: 100vh;
   position: relative;
   text-align: center;
+  overflow: hidden;
 }

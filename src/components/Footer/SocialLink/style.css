@@ -1,0 +1,11 @@
+.socialLink__icon {
+  margin: 5px;
+  width: 60px;
+  height: auto;
+  fill: #ffffff;
+  transition: ease-in-out 0.3s;
+}
+
+.socialLink__icon:hover {
+  fill: #0e76cc;
+}

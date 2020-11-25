@@ -1,6 +1,7 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Tour Attract",
+  "name": "Tour Attract App",
+  "description": "Website with tourist attractions",
   "icons": [
     {
       "src": "favicon.ico",

@@ -1,13 +1,13 @@
 import React from 'react';
 
-import { PlaceHeader, PlaceDescription, PlacePhoto } from './PlaceDetails';
+import { PlaceDescription, PlaceHeader, PlaceImage } from './PlaceDetails';
 import './style.css';
 
 const Place = ({ data }) => {
     return (
         <div className="Place">
+            <PlaceImage photo={data.foto_url}/>
             <PlaceHeader title={data.title} />
-            <PlacePhoto photo={data.foto_url}/>
             <PlaceDescription rate={data.rate} address={data.address} city={data.city} description={data.description} price={data.price} />
         </div>
     )

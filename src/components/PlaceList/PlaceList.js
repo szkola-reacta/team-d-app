@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { v4 as uuidv4 } from 'uuid';
 
 import { Place } from 'components/Place';
-import './PlaceList';
+import './style.css';
 
 const PlaceList = () => {
     const [places, setPlaces] = useState([]);

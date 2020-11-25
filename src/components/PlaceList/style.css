@@ -1,8 +1,6 @@
 .PlaceList {
-  width: 100%;
-  min-height: 80vh;
+  margin: 50px 0;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
 }

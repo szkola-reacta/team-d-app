@@ -21,7 +21,7 @@ function App() {
         <Header />
         <Switch>
           <Route path="/" exact>
-            <div>
+            <div className="App__Home">
               <Searchbar />
               <PlaceList />
             </div>

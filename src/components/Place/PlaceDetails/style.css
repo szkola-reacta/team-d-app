@@ -1,29 +1,27 @@
 .Place__Title {
   text-align: left;
-  padding-bottom: 5px;
+  padding: 5px 10px;
   font-size: 1.2rem;
 }
 
-.Place__ImageContainer {
-  width: 100%;
-  border: 1px solid #aaa;
-  border-radius: 10px;
-  overflow: hidden;
-}
-
 .Place__Image {
-  display: block;
   width: 100%;
+  height: 200px;
+  object-fit: cover;
   margin: 0 auto;
-  height: auto;
+  display: block;
 }
 
-.PlaceDescription__Item {
+.Place__Description {
+  padding: 10px;
+}
+
+.Place__Item {
+  padding: 0 10px;
   text-align: left;
   font-size: 1rem;
 }
 
-.PlaceDescription__Item:first-child {
-  padding-top: 10px;
-  padding-bottom: 5px;
+.Place__Item:first-child {
+  padding-bottom: 10px;
 }

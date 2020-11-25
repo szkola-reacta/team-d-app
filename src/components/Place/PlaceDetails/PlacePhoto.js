@@ -4,8 +4,8 @@ import './style.css';
 
 const PlacePhoto = ({ photo }) => {
     return (
-        <div className="photoContent">
-            <img src={photo} alt="" className="photoContent__Item" />
+        <div className="Place__ImageContainer">
+            <img className="Place__Image" src={photo} alt="" />
         </div>
     );
 }

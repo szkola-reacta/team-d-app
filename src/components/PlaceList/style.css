@@ -1,15 +1,8 @@
-.Card {
+.PlaceList {
   width: 100%;
   min-height: 80vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   flex-wrap: wrap;
-}
-
-.Card__Container {
-  max-width: 90%;
-  min-height: 250px;
-  margin: 20px auto;
-  border-radius: 5px;
 }

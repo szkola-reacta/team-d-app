@@ -1,27 +1,29 @@
-.Card__Title {
+.Place__Title {
   text-align: left;
   padding-bottom: 5px;
   font-size: 1.2rem;
 }
 
-.photoContent {
+.Place__ImageContainer {
   width: 100%;
   border: 1px solid #aaa;
   border-radius: 10px;
   overflow: hidden;
 }
-.photoContent__Item {
+
+.Place__Image {
   display: block;
   width: 100%;
   margin: 0 auto;
   height: auto;
 }
 
-.Card__Item {
+.PlaceDescription__Item {
   text-align: left;
   font-size: 1rem;
 }
-.Card__Item:first-child {
+
+.PlaceDescription__Item:first-child {
   padding-top: 10px;
   padding-bottom: 5px;
 }

@@ -1,7 +1,13 @@
+.Place__PlaceHeader {
+  padding: 7px 10px;
+}
+
 .Place__Title {
-  text-align: left;
-  padding: 5px 10px;
   font-size: 1.2rem;
+}
+
+.Place__Subtitle {
+  color: #666666;
 }
 
 .Place__Image {
@@ -16,9 +22,12 @@
   padding: 10px;
 }
 
+.Place__Section {
+  display: flex;
+}
+
 .Place__Item {
   padding: 0 10px;
-  text-align: left;
   font-size: 1rem;
 }
 

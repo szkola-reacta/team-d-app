@@ -1,18 +1,19 @@
-import React from 'react';
+import React from "react";
 import {
   BrowserRouter as Router,
   Switch,
   Route,
   Redirect,
-} from 'react-router-dom';
+} from "react-router-dom";
 
-import { Header } from 'components/Header';
-import { About } from 'containers';
-import { Footer } from 'components/Footer';
-import { PageNotFound } from 'components/PageNotFound';
-import Searchbar from 'components/Searchbar/Searchbar.js';
+import { Header } from "components/Header";
+import { About } from "containers";
+import { Footer } from "components/Footer";
+import { PageNotFound } from "components/PageNotFound";
+import Searchbar from "components/Searchbar/Searchbar.js";
+import PlaceCreateForm from "components/PlaceCreateForm/PlaceCreateForm";
 
-import 'App.css';
+import "App.css";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Switch>
           <Route path="/" exact>
             <Searchbar />
+            <PlaceCreateForm />
             Home
           </Route>
           <Route path="/about">

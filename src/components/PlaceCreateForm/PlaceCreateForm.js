@@ -24,22 +24,42 @@ class PlaceCreateForm extends Component {
       category: "",
       rate: "",
     },
-    sendMessage: "",
+    summaryMessage: "",
   };
 
   handleBlur = (e) => {
     const { name, value } = e.target;
+    const validUrl = /(https?:\/\/(?:www\.|(?!www))[a-zA-Z0-9][a-zA-Z0-9-]+[a-zA-Z0-9]\.[^\s]{2,}|www\.[a-zA-Z0-9][a-zA-Z0-9-]+[a-zA-Z0-9]\.[^\s]{2,}|https?:\/\/(?:www\.|(?!www))[a-zA-Z0-9]+\.[^\s]{2,}|www\.[a-zA-Z0-9]+\.[^\s]{2,})/gi;
+
+    if (name == "price" || name == "rate") {
+      if (isNaN(value)) {
+        this.setState({
+          errors: { ...this.state.errors, [name]: "Wpisz liczbę" },
+        });
+        return false;
+      }
+    }
+
+    if (name == "foto_url") {
+      if (!value.match(validUrl)) {
+        this.setState({
+          errors: { ...this.state.errors, [name]: "Link jest niepoprawny" },
+        });
+        return false;
+      }
+    }
+
     if (value < 1) {
       this.setState({
         errors: { ...this.state.errors, [name]: "Pole nie może być puste" },
-        sendMessage: " Nie wszystkie pola zostały poprawnie uzupełnione",
       });
-    } else {
-      this.setState({
-        errors: { ...this.state.errors, [name]: "" },
-        sendMessage: "",
-      });
+      return false;
     }
+
+    this.setState({
+      errors: { ...this.state.errors, [name]: "" },
+      summaryMessage: "",
+    });
   };
 
   handleChange = (e) => {
@@ -61,7 +81,7 @@ class PlaceCreateForm extends Component {
     const newItem = this.state.params;
     this.setState({
       placeList: [...this.state.placeList, newItem],
-      sendMessage: "Dane zostały poprawnie dodane",
+      summaryMessage: "Dane zostały poprawnie dodane",
     });
   };
 
@@ -77,7 +97,7 @@ class PlaceCreateForm extends Component {
     setTimeout(
       () =>
         this.setState({
-          sendMessage: "",
+          summaryMessage: "",
         }),
       3000
     );
@@ -86,7 +106,7 @@ class PlaceCreateForm extends Component {
   handleForm = (e) => {
     e.preventDefault();
     this.setState({
-      sendMessage: " Nie wszystkie pola zostały poprawnie uzupełnione",
+      summaryMessage: " Uzupełnij wszystkie pola",
     });
 
     if (this.isFormValid()) {
@@ -232,7 +252,7 @@ class PlaceCreateForm extends Component {
 
           <button type="submit">Dodaj</button>
         </form>
-        {this.state.sendMessage && <span>{this.state.sendMessage}</span>}
+        {this.state.summaryMessage && <span>{this.state.summaryMessage}</span>}
       </div>
     );
   }

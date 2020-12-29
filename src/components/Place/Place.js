@@ -1,32 +1,29 @@
-import React, {useEffect, useState} from 'react';
+import React, { useEffect, useState } from 'react';
 import { PlaceContainer } from './PlaceComponents';
 
-
 const Place = () => {
+  const [apiData, setApiData] = useState([]);
 
-const [apiData, setApiData] = useState([])
-
-const getData = () => {
+  const getData = () => {
     fetch('./API/database.json')
-    .then(response => {
-        if(response.ok) return response
-        throw new Error(response.status)
-    })
-    .then(response => response.json())
-    .then(data => {
+      .then((response) => {
+        if (response.ok) return response;
+        throw new Error(response.status);
+      })
+      .then((response) => response.json())
+      .then((data) => {
         setApiData(data);
-    })
- }
+      });
+  };
 
-useEffect(() => {
+  useEffect(() => {
     getData();
     return () => {
-    setApiData([]);
-    }
-}, [])
+      setApiData([]);
+    };
+  }, []);
 
-
-    return <PlaceContainer apiData={apiData}/>
-}
+  return <PlaceContainer apiData={apiData} />;
+};
 
 export default Place;

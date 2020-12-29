@@ -1,10 +1,12 @@
 import React from 'react';
-import "./style.css";
+import './style.css';
 
-const PlacePhoto = ({photo}) => {
-    return ( <div className="photoContent">
-        <img src={photo} alt="image" className="photoContent__Item" />
-    </div> );
-}
- 
+const PlacePhoto = ({ photo }) => {
+  return (
+    <div className="photoContent">
+      <img src={photo} alt="image" className="photoContent__Item" />
+    </div>
+  );
+};
+
 export default PlacePhoto;

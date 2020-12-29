@@ -1,28 +1,19 @@
 import React from 'react';
+import { ContributorImage } from './ContributorImage';
+import { ContributorDetails } from './ContributorDetails';
 
 function ContributorItem() {
   return (
-    <div className="contributor">
-      <div className="contributor__profile">
-        <img className="contributor__img" src="#" alt="contributor profile" />
-      </div>
-      <article className="contributor__details">
-        <h2>Name Surname</h2>
-        <p className="contributor__bio">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto
-          blanditiis commodi rerum mollitia molestiae illum nostrum numquam at
-          sunt cum.
-        </p>
-        <a className="contributor__socialMediaLink" href="https://github.com">
-          Github
-        </a>
-        <a className="contributor__socialMediaLink" href="https://linkedIn.com">
-          LinkedIn
-        </a>
-        <a className="contributor__socialMediaLink" href="https://linkedIn.com">
-          Website
-        </a>
-      </article>
+    <div className="contributor__profile">
+      <ContributorImage />
+      <ContributorDetails
+        name="Norbert Wronski"
+        description="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto blanditiis
+        commodi rerum mollitia molestiae illum nostrum numquam at sunt cum."
+        gitHubLink="https://github.com"
+        linkedInLink="https://linkedIn.com"
+        websiteLink="https://linkedIn.com"
+      />
     </div>
   );
 }

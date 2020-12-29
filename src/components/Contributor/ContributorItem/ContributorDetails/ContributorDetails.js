@@ -21,9 +21,11 @@ function ContributorDetails(props) {
         <ContributorLink link={linkedInLink}>
           <FontAwesomeIcon icon={faLinkedinIn} className="contributor__icon" />
         </ContributorLink>
-        <ContributorLink link={websiteLink}>
-          <FontAwesomeIcon icon={faGlobe} className="contributor__icon" />
-        </ContributorLink>
+        {websiteLink && (
+          <ContributorLink link={websiteLink}>
+            <FontAwesomeIcon icon={faGlobe} className="contributor__icon" />
+          </ContributorLink>
+        )}
       </LinkWrapper>
     </article>
   );

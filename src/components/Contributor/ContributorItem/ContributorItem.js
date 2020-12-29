@@ -1,6 +1,7 @@
 import React from 'react';
 import { ContributorImage } from './ContributorImage';
 import { ContributorDetails } from './ContributorDetails';
+import './contributor.css';
 
 function ContributorItem() {
   return (

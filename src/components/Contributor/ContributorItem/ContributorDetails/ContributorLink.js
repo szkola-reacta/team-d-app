@@ -1,9 +1,9 @@
 import React from 'react';
 
-function ContributorLink({ link, name }) {
+function ContributorLink({ link, children }) {
   return (
     <a className="contributor__socialMediaLink" href={link}>
-      {name}
+      {children}
     </a>
   );
 }

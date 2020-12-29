@@ -16,13 +16,13 @@ function ContributorDetails(props) {
       <ContributorBio description={description} />
       <LinkWrapper>
         <ContributorLink link={gitHubLink}>
-          <FontAwesomeIcon icon={faGithub} />
+          <FontAwesomeIcon icon={faGithub} className="contributor__icon" />
         </ContributorLink>
         <ContributorLink link={linkedInLink}>
-          <FontAwesomeIcon icon={faLinkedinIn} />
+          <FontAwesomeIcon icon={faLinkedinIn} className="contributor__icon" />
         </ContributorLink>
         <ContributorLink link={websiteLink}>
-          <FontAwesomeIcon icon={faGlobe} />
+          <FontAwesomeIcon icon={faGlobe} className="contributor__icon" />
         </ContributorLink>
       </LinkWrapper>
     </article>

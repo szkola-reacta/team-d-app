@@ -2,11 +2,12 @@ import React from 'react';
 import { ContributorImage } from './ContributorImage';
 import { ContributorDetails } from './ContributorDetails';
 import './contributor.css';
+import profilePhoto from '../../../assets/photo/norbert.jpg';
 
 function ContributorItem() {
   return (
     <div className="contributor__profile">
-      <ContributorImage />
+      <ContributorImage photo={profilePhoto} />
       <ContributorDetails
         name="Norbert Wronski"
         description="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto blanditiis

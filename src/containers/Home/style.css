@@ -1,7 +1,20 @@
 .Home {
-    padding: 50px;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  padding: 50px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Home__link {
+  font-size: 1.4rem;
+  color: #f38b2a;
+  transition: 0.2s;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.Home__link:hover {
+  color: #ee7b0f;
+  font-size: 1.5rem;
 }

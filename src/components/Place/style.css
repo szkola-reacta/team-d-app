@@ -1,0 +1,15 @@
+.Place {
+  margin: 20px;
+  width: 350px;
+  border-radius: 10px;
+  background-color: #dddddd;
+  box-shadow: 1px 1px 6px 1px #aaaaaa;
+  overflow: hidden;
+  cursor: pointer;
+  transition: ease-in-out 0.2s;
+}
+
+.Place:hover {
+  transform: scale(1.1);
+  box-shadow: 1px 1px 6px 2px #999999;
+}

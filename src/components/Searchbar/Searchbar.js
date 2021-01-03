@@ -19,7 +19,7 @@ const Searchbar = () => {
   };
 
   return (
-    <div className='searchbar'>
+    <div className="searchbar">
       <InputField searchInput={searchInput} handleChange={handleChange} />
 
       {searchInput.length !== 0 && (

@@ -6,32 +6,39 @@ import {
   Redirect,
 } from 'react-router-dom';
 
+import { About, Home } from 'containers';
 import { Header } from 'components/Header';
 import { Footer } from 'components/Footer';
 import { PageNotFound } from 'components/PageNotFound';
-import { About, Home } from 'containers';
+import { PlaceList } from './components/PlaceList';
+import Searchbar from 'components/Searchbar/Searchbar.js';
+
 import 'App.css';
 
 function App() {
   return (
     <Router>
-      <div className='App'>
+      <div className="App">
         <Header />
-
         <Switch>
-          <Route path='/' exact>
+          <Route path="/" exact>
             <Home />
           </Route>
-          <Route path='/about'>
+          <Route path="/places">
+            <div className="App__Home">
+              <Searchbar />
+              <PlaceList />
+            </div>
+          </Route>
+          <Route path="/about">
             <About />
           </Route>
           <Route
-            path='/page-not-found'
-            render={() => <PageNotFound path='/' />}
+            path="/page-not-found"
+            render={() => <PageNotFound path="/" />}
           />
-          <Redirect to='page-not-found' />
+          <Redirect to="page-not-found" />
         </Switch>
-
         <Footer />
       </div>
     </Router>

@@ -6,12 +6,13 @@ import {
   Redirect,
 } from 'react-router-dom';
 
-import { About } from 'containers';
+import { About, Home } from 'containers';
 import { Header } from 'components/Header';
 import { Footer } from 'components/Footer';
 import { PageNotFound } from 'components/PageNotFound';
 import { PlaceList } from './components/PlaceList';
 import Searchbar from 'components/Searchbar/Searchbar.js';
+
 import 'App.css';
 
 function App() {
@@ -21,6 +22,9 @@ function App() {
         <Header />
         <Switch>
           <Route path="/" exact>
+            <Home />
+          </Route>
+          <Route path="/places">
             <div className="App__Home">
               <Searchbar />
               <PlaceList />

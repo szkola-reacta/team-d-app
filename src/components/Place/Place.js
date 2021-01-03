@@ -1,32 +1,16 @@
-import React, {useEffect, useState} from 'react';
-import { PlaceContainer } from './PlaceComponents';
+import React from 'react';
 
+import { PlaceDescription, PlaceHeader, PlaceImage } from './PlaceDetails';
+import './style.css';
 
-const Place = () => {
-
-const [apiData, setApiData] = useState([])
-
-const getData = () => {
-    fetch('./API/database.json')
-    .then(response => {
-        if(response.ok) return response
-        throw new Error(response.status)
-    })
-    .then(response => response.json())
-    .then(data => {
-        setApiData(data);
-    })
- }
-
-useEffect(() => {
-    getData();
-    return () => {
-    setApiData([]);
-    }
-}, [])
-
-
-    return <PlaceContainer apiData={apiData}/>
+const Place = ({ data }) => {
+    return (
+        <div className="Place">
+            <PlaceImage photo={data.foto_url}/>
+            <PlaceHeader title={data.title} subtitle={`${data.address}, ${data.city}`} />
+            <PlaceDescription rate={data.rate} address={data.address} city={data.city} description={data.description} price={data.price} />
+        </div>
+    )
 }
 
 export default Place;

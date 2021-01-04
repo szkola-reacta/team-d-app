@@ -1,49 +1,49 @@
-import React, { Component } from "react";
-import "./placeCreateForm.css";
+import React, { Component } from 'react';
+import './placeCreateForm.css';
 
 class PlaceCreateForm extends Component {
   state = {
     placeList: [],
     params: {
-      title: "",
-      description: "",
-      foto_url: "",
-      price: "",
-      city: "",
-      address: "",
-      category: "",
-      rate: "",
+      title: '',
+      description: '',
+      foto_url: '',
+      price: '',
+      city: '',
+      address: '',
+      category: '',
+      rate: '',
     },
     errors: {
-      title: "",
-      description: "",
-      foto_url: "",
-      price: "",
-      city: "",
-      address: "",
-      category: "",
-      rate: "",
+      title: '',
+      description: '',
+      foto_url: '',
+      price: '',
+      city: '',
+      address: '',
+      category: '',
+      rate: '',
     },
-    summaryMessage: "",
+    summaryMessage: '',
   };
 
   handleBlur = (e) => {
     const { name, value } = e.target;
     const validUrl = /(https?:\/\/(?:www\.|(?!www))[a-zA-Z0-9][a-zA-Z0-9-]+[a-zA-Z0-9]\.[^\s]{2,}|www\.[a-zA-Z0-9][a-zA-Z0-9-]+[a-zA-Z0-9]\.[^\s]{2,}|https?:\/\/(?:www\.|(?!www))[a-zA-Z0-9]+\.[^\s]{2,}|www\.[a-zA-Z0-9]+\.[^\s]{2,})/gi;
 
-    if (name == "price" || name == "rate") {
+    if (name === 'price' || name === 'rate') {
       if (isNaN(value)) {
         this.setState({
-          errors: { ...this.state.errors, [name]: "Wpisz liczbę" },
+          errors: { ...this.state.errors, [name]: 'Wpisz liczbę' },
         });
         return false;
       }
     }
 
-    if (name == "foto_url") {
+    if (name === 'foto_url') {
       if (!value.match(validUrl)) {
         this.setState({
-          errors: { ...this.state.errors, [name]: "Link jest niepoprawny" },
+          errors: { ...this.state.errors, [name]: 'Link jest niepoprawny' },
         });
         return false;
       }
@@ -51,14 +51,14 @@ class PlaceCreateForm extends Component {
 
     if (value < 1) {
       this.setState({
-        errors: { ...this.state.errors, [name]: "Pole nie może być puste" },
+        errors: { ...this.state.errors, [name]: 'Pole nie może być puste' },
       });
       return false;
     }
 
     this.setState({
-      errors: { ...this.state.errors, [name]: "" },
-      summaryMessage: "",
+      errors: { ...this.state.errors, [name]: '' },
+      summaryMessage: '',
     });
   };
 
@@ -72,8 +72,8 @@ class PlaceCreateForm extends Component {
   isFormValid = () => {
     const { params, errors } = this.state;
     let formFilled, noErrors;
-    formFilled = !Object.values(params).some((x) => x === "");
-    noErrors = !Object.values(errors).some((x) => x !== "");
+    formFilled = !Object.values(params).some((x) => x === '');
+    noErrors = !Object.values(errors).some((x) => x !== '');
     return formFilled && noErrors;
   };
 
@@ -81,14 +81,14 @@ class PlaceCreateForm extends Component {
     const newItem = this.state.params;
     this.setState({
       placeList: [...this.state.placeList, newItem],
-      summaryMessage: "Dane zostały poprawnie dodane",
+      summaryMessage: 'Dane zostały poprawnie dodane',
     });
   };
 
   resetForm = () => {
     const params = { ...this.state.params };
     Object.keys(params).forEach(function (key) {
-      params[key] = "";
+      params[key] = '';
     });
     this.setState({
       params,
@@ -97,7 +97,7 @@ class PlaceCreateForm extends Component {
     setTimeout(
       () =>
         this.setState({
-          summaryMessage: "",
+          summaryMessage: '',
         }),
       3000
     );
@@ -106,7 +106,7 @@ class PlaceCreateForm extends Component {
   handleForm = (e) => {
     e.preventDefault();
     this.setState({
-      summaryMessage: " Uzupełnij wszystkie pola",
+      summaryMessage: ' Uzupełnij wszystkie pola',
     });
 
     if (this.isFormValid()) {
@@ -123,11 +123,10 @@ class PlaceCreateForm extends Component {
         <h1>Place Create Form</h1>
         <p>Należy wypełnić wszystkie pola</p>
         <form
-          novalidate
+          noValidate
           validate="false"
           onSubmit={this.handleForm}
-          className="placeCreateForm"
-        >
+          className="placeCreateForm">
           <label htmlFor="title" className="placeCreateForm__label">
             <input
               className="placeCreateForm__input"

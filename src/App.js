@@ -12,6 +12,7 @@ import { Footer } from 'components/Footer';
 import { PageNotFound } from 'components/PageNotFound';
 import { PlaceList } from './components/PlaceList';
 import Searchbar from 'components/Searchbar/Searchbar.js';
+import { PlaceCreateForm } from './components/PlaceCreateForm';
 
 import 'App.css';
 
@@ -29,6 +30,9 @@ function App() {
               <Searchbar />
               <PlaceList />
             </div>
+          </Route>
+          <Route path="/place-form">
+            <PlaceCreateForm />
           </Route>
           <Route path="/about">
             <About />

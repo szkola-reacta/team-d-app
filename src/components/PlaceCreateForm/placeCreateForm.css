@@ -1,0 +1,28 @@
+.placeCreateForm {
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+  width: 100%;
+  max-width: 900px;
+  border-radius: 5px;
+  background: #eceef5;
+}
+
+.placeCreateForm__label {
+  width: 100%;
+  display: block;
+  min-height: 70px;
+}
+
+.placeCreateForm__input {
+  width: 100%;
+  display: block;
+  padding: 10px;
+  border: none;
+  background: rgba(255, 255, 255, 0.5);
+  color: green;
+}
+
+.placeCreateForm__error {
+  color: red;
+}

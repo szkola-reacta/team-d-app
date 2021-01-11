@@ -1,6 +1,6 @@
 import React from 'react';
 import './style.css';
-import { ContributorItem } from '../components/Contributor/ContributorItem';
+import { ContributorItem } from '../../components/Contributor/ContributorItem';
 
 function About() {
   return (

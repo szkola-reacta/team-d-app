@@ -18,6 +18,11 @@ const List = [
     linkName: 'places',
     path: '/places',
   },
+  {
+    id: 4,
+    linkName: 'add new place',
+    path: '/place-form',
+  },
 ];
 
 function NavList({ navListClass, defaultClass, navLinkClass }) {

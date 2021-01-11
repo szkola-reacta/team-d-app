@@ -4,9 +4,9 @@ import ContributorBio from './ContributorBio';
 import ContributorLink from './ContributorLink';
 import LinkWrapper from './LinkWrapper';
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
-import { faGlobe } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fontawesome/react-fontawesome';
+import { faGithub, faLinkedinIn } from '@fontawesome/free-brands-svg-icons';
+import { faGlobe } from '@fontawesome/free-solid-svg-icons';
 
 function ContributorDetails(props) {
   const { name, description, gitHubLink, linkedInLink, websiteLink } = props;

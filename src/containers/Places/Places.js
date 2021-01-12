@@ -23,8 +23,9 @@ const Places = ({ children }) => {
   }, []);
 
   return (
-    <div>
+    <div className="places">
       <Searchbar places={places} />
+      <h2>All beautiful places</h2>
       <PlaceList places={places} />
     </div>
   );

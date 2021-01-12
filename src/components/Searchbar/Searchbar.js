@@ -21,14 +21,14 @@ const Searchbar = ({ places }) => {
     item.title.toLowerCase().includes(searchInput.toLowerCase())
   );
   return (
-    <div className="searchbar">
-      <div className="searchbar__input">
+    <div className="Searchbar">
+      <div className="Searchbar__inputContainer">
         <InputField searchInput={searchInput} handleChange={handleChange} />
         <ClearInput clearInput={clearInput} />
       </div>
       {searchInput.length !== 0 && (
-        <div className="searchbar__results">
-          <h2>Search results:</h2>
+        <div className="Searchbar__resultsContainer">
+          <h2>Search results</h2>
           <PlaceList places={locationList} />
         </div>
       )}

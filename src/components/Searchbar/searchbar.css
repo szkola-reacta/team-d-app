@@ -1,26 +1,27 @@
-.searchbar {
+.Searchbar {
   position: relative;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: flex-start;
+  text-align: center;
   padding: 5px;
 }
 
-.searchbar__input,
-.searchbar__button {
+h2 {
+  text-align: center;
+  display: block;
+}
+
+.Searchbar__InputField,
+.Searchbar__ClearInput {
   margin: 5px;
-  padding: 5px;
+  padding: 0.5em 0.75em;
   border: 1px solid #6b6a6a;
   border-radius: 5px;
 }
 
-.searchbar__input:focus {
+.Searchbar__InputField:focus {
   outline: none;
 }
 
-.searchbar__result {
-  position: absolute;
+.Searchbar__resultsContainer {
   top: 40px;
   display: flex;
   flex-direction: column;

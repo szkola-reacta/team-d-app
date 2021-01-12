@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 import { PlaceList } from '../../components/PlaceList';
 import { Searchbar } from '../../components/Searchbar';
 
-const Places = ({ children }) => {
+const Places = () => {
   const [places, setPlaces] = useState([]);
 
   const getData = () => {

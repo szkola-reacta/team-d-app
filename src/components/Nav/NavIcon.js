@@ -7,7 +7,7 @@ function NavIcon({ icon, onClick }) {
         src={icon}
         onClick={onClick}
         alt="menu icon"
-        className="Nav__NavIcon__iconImg"
+        className="Nav__iconImg"
       />
     </div>
   );

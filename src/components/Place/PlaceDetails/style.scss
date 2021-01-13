@@ -1,0 +1,31 @@
+.Place {
+  &__PlaceHeader {
+    padding: 7px 10px;
+  }
+  &__Title {
+    font-size: 1.2rem;
+  }
+  &__Subtitle {
+    color: #666666;
+  }
+  &__PlaceImage {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    margin: 0 auto;
+    display: block;
+  }
+  &__PlaceDescription {
+    padding: 10px;
+  }
+  &__Section {
+    display: flex;
+  }
+  &__Item {
+    padding: 0 10px;
+    font-size: 1rem;
+    &:first-child {
+      padding-bottom: 10px;
+    }
+  }
+}

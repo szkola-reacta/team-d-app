@@ -27,7 +27,7 @@ const List = [
 
 function NavList({ navListClass, defaultClass, navLinkClass }) {
   return (
-    <ul className={`${defaultClass} ${navListClass}`}>
+    <ul className={`${defaultClass} ${defaultClass}${navListClass}`}>
       {List.map((el) => (
         <NavItem
           key={`link-${el.id}`}

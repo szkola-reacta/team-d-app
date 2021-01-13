@@ -18,7 +18,7 @@ function Nav() {
       <NavIcon icon={isActive ? cross : hamburger} onClick={handleClick} />
       <NavList
         defaultClass="Nav__listDefault"
-        navListClass={isActive ? 'Nav__listActive' : 'Nav__listHidden'}
+        navListClass={isActive ? '--listActive' : '--listHidden'}
         navLinkClass="Nav__linkDefault"
       />
     </nav>

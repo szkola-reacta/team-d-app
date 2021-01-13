@@ -11,19 +11,22 @@ import { faGlobe } from '@fortawesome/free-solid-svg-icons';
 function ContributorDetails(props) {
   const { name, description, gitHubLink, linkedInLink, websiteLink } = props;
   return (
-    <article className="contributor__details">
+    <article className="ContributorItem__ContributorDetails">
       <ContributorName name={name} />
       <ContributorBio description={description} />
       <LinkWrapper>
         <ContributorLink link={gitHubLink}>
-          <FontAwesomeIcon icon={faGithub} className="contributor__icon" />
+          <FontAwesomeIcon icon={faGithub} className="ContributorItem__icon" />
         </ContributorLink>
         <ContributorLink link={linkedInLink}>
-          <FontAwesomeIcon icon={faLinkedinIn} className="contributor__icon" />
+          <FontAwesomeIcon
+            icon={faLinkedinIn}
+            className="ContributorItem__icon"
+          />
         </ContributorLink>
         {websiteLink && (
           <ContributorLink link={websiteLink}>
-            <FontAwesomeIcon icon={faGlobe} className="contributor__icon" />
+            <FontAwesomeIcon icon={faGlobe} className="ContributorItem__icon" />
           </ContributorLink>
         )}
       </LinkWrapper>

@@ -1,6 +1,7 @@
 .PlaceCreateForm {
   display: block;
   margin: 0 auto;
+  margin-bottom: 2em;
   padding: 10px;
   width: 100%;
   max-width: 900px;
@@ -27,6 +28,9 @@
     & p {
       text-align: center;
       display: block;
+    }
+    & p {
+      margin-bottom: 1em;
     }
   }
 }

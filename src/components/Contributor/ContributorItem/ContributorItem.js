@@ -1,12 +1,12 @@
 import React from 'react';
 import { ContributorImage } from './ContributorImage';
 import { ContributorDetails } from './ContributorDetails';
-import './contributor.css';
+import './style.scss';
 import profilePhoto from '../../../assets/photo/norbert.jpg';
 
 function ContributorItem() {
   return (
-    <div className="contributor__profile">
+    <div className="ContributorItem">
       <ContributorImage photo={profilePhoto} />
       <ContributorDetails
         name="Norbert Wronski"

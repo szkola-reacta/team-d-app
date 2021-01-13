@@ -1,9 +1,9 @@
 import React from 'react';
 
-import './style.css';
+import './style.scss';
 
 function FooterBreak() {
-  return <div className="footerBreak" />;
+  return <div className="FooterBreak" />;
 }
 
 export default FooterBreak;

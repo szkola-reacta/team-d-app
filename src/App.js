@@ -12,7 +12,7 @@ import { Footer } from 'components/Footer';
 import { PageNotFound } from 'components/PageNotFound';
 import { PlaceCreateForm } from './components/PlaceCreateForm';
 
-import 'App.css';
+import 'App.scss';
 
 function App() {
   return (

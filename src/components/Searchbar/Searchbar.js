@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import InputField from './InputField';
 import ClearButton from './ClearButton';
 import { PlaceList } from '../PlaceList';
-import './searchbar.css';
+import './styles.scss';
 
 const Searchbar = ({ places }) => {
   const [searchInput, setSearchInput] = useState('');

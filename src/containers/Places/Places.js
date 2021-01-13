@@ -23,7 +23,7 @@ const Places = () => {
   }, []);
 
   return (
-    <div className="places">
+    <div className="Places">
       <Searchbar places={places} />
       <h2>All beautiful places</h2>
       <PlaceList places={places} />

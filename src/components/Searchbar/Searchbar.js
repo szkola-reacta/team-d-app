@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import InputField from './InputField';
-import ClearInput from './ClearInput';
+import ClearButton from './ClearButton';
 import { PlaceList } from '../PlaceList';
 import './searchbar.css';
 
@@ -24,7 +24,7 @@ const Searchbar = ({ places }) => {
     <div className="Searchbar">
       <div className="Searchbar__inputContainer">
         <InputField searchInput={searchInput} handleChange={handleChange} />
-        <ClearInput clearInput={clearInput} />
+        <ClearButton clearInput={clearInput} />
       </div>
       {searchInput.length !== 0 && (
         <div className="Searchbar__resultsContainer">

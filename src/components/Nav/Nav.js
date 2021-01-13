@@ -13,13 +13,13 @@ function Nav() {
   };
 
   return (
-    <nav className="nav">
+    <nav className="Nav">
       <Logo />
       <NavIcon icon={isActive ? cross : hamburger} onClick={handleClick} />
       <NavList
-        defaultClass="navListDefault"
-        navListClass={isActive ? 'navListActive' : 'navListHidden'}
-        navLinkClass="navLinkDefault"
+        defaultClass="Nav__listDefault"
+        navListClass={isActive ? 'Nav__listActive' : 'Nav__listHidden'}
+        navLinkClass="Nav__linkDefault"
       />
     </nav>
   );

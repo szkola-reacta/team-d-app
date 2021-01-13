@@ -5,7 +5,7 @@ import { ContributorItem } from '../../components/Contributor/ContributorItem';
 function About() {
   return (
     <div className="About">
-      <h2>about us</h2>
+      <h2 className="About">About us</h2>
       <ContributorItem />
     </div>
   );

@@ -17,9 +17,8 @@
     display: flex;
     flex-direction: column;
   }
-}
-
-h2 {
-  text-align: center;
-  display: block;
+  & h2 {
+    text-align: center;
+    display: block;
+  }
 }

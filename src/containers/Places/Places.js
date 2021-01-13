@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 
 import { PlaceList } from '../../components/PlaceList';
 import { Searchbar } from '../../components/Searchbar';
+import './style.scss';
 
 const Places = () => {
   const [places, setPlaces] = useState([]);
@@ -25,7 +26,7 @@ const Places = () => {
   return (
     <div className="Places">
       <Searchbar places={places} />
-      <h2>All beautiful places</h2>
+      <h2 className="Places">All beautiful places</h2>
       <PlaceList places={places} />
     </div>
   );

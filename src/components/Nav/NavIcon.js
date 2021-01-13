@@ -2,12 +2,12 @@ import React from 'react';
 
 function NavIcon({ icon, onClick }) {
   return (
-    <div className="navIconWrapper">
+    <div className="Nav__NavIcon">
       <img
         src={icon}
         onClick={onClick}
         alt="menu icon"
-        className="navIconImg"
+        className="Nav__NavIcon__iconImg"
       />
     </div>
   );

@@ -1,6 +1,6 @@
 import React from 'react';
 import NavItem from './NavItem';
-import './style.css';
+import './style.scss';
 
 const List = [
   {

@@ -2,7 +2,7 @@ import React from 'react';
 import { v4 as uuidv4 } from 'uuid';
 
 import { Place } from 'components/Place';
-import './style.css';
+import './style.scss';
 
 const PlaceList = ({ places }) => {
   return (

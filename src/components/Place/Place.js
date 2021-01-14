@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { PlaceDescription, PlaceHeader, PlaceImage } from './PlaceDetails';
-import './style.css';
+import './style.scss';
 
 const Place = ({ data }) => {
   return (

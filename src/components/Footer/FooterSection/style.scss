@@ -1,0 +1,10 @@
+.FooterSection {
+  margin: 25px;
+  flex: 0.3;
+  &--narrow {
+    flex: 0.1;
+  }
+  @media only screen and (max-width: 768px) {
+    flex: auto;
+  }
+}

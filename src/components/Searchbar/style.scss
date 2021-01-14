@@ -1,0 +1,24 @@
+.Searchbar {
+  position: relative;
+  text-align: center;
+  padding: 5px;
+  &__InputField,
+  &__ClearButton {
+    margin: 5px;
+    padding: 0.5em 0.75em;
+    border: 1px solid #6b6a6a;
+    border-radius: 5px;
+  }
+  &__InputField:focus {
+    outline: none;
+  }
+  &__resultsContainer {
+    top: 40px;
+    display: flex;
+    flex-direction: column;
+  }
+  & h2 {
+    text-align: center;
+    display: block;
+  }
+}

@@ -1,0 +1,36 @@
+.PlaceCreateForm {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 2em;
+  padding: 10px;
+  width: 100%;
+  max-width: 900px;
+  border-radius: 5px;
+  background: #eceef5;
+  &__label {
+    width: 100%;
+    display: block;
+    min-height: 70px;
+  }
+  &__input {
+    width: 100%;
+    display: block;
+    padding: 10px;
+    border: none;
+    background: rgba(255, 255, 255, 0.5);
+    color: green;
+  }
+  &__error {
+    color: red;
+  }
+  &__header {
+    & h2,
+    & p {
+      text-align: center;
+      display: block;
+    }
+    & p {
+      margin-bottom: 1em;
+    }
+  }
+}

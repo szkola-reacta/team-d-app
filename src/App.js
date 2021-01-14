@@ -6,13 +6,12 @@ import {
   Redirect,
 } from 'react-router-dom';
 
-import { About, Home, Places } from 'containers';
+import { About, Home, Places, PlaceCreateForm } from 'containers';
 import { Header } from 'components/Header';
 import { Footer } from 'components/Footer';
 import { PageNotFound } from 'components/PageNotFound';
-import { PlaceCreateForm } from './components/PlaceCreateForm';
 
-import 'App.css';
+import 'App.scss';
 
 function App() {
   return (

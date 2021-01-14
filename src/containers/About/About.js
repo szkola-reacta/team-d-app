@@ -1,11 +1,11 @@
 import React from 'react';
-import './style.css';
+import './style.scss';
 import { ContributorItem } from '../../components/Contributor/ContributorItem';
 
 function About() {
   return (
-    <div className="about__container">
-      <h2>about us</h2>
+    <div className="About">
+      <h2 className="About">About us</h2>
       <ContributorItem />
     </div>
   );

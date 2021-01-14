@@ -4,7 +4,7 @@ const CURRENCY_NAME = 'zł';
 
 const PlaceDescription = ({ description, price, rate }) => {
   return (
-    <div className="Place__Description">
+    <div className="Place__PlaceDescription">
       <div className="Place__Section">
         <p className="Place__Item">
           <i className="fas fa-star"></i> {rate}

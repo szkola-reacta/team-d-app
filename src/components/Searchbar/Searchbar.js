@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import InputField from './InputField';
 import ClearButton from './ClearButton';
 import { PlaceList } from '../PlaceList';
-import './searchbar.css';
+import './style.scss';
 
 const Searchbar = ({ places }) => {
   const [searchInput, setSearchInput] = useState('');
@@ -28,7 +28,7 @@ const Searchbar = ({ places }) => {
       </div>
       {searchInput.length !== 0 && (
         <div className="Searchbar__resultsContainer">
-          <h2>Search results</h2>
+          <h2 className="Searchbar">Search results</h2>
           <PlaceList places={locationList} />
         </div>
       )}

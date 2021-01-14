@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './placeCreateForm.css';
+import './style.scss';
 
 class PlaceCreateForm extends Component {
   state = {
@@ -120,16 +120,20 @@ class PlaceCreateForm extends Component {
 
     return (
       <div>
-        <h1>Place Create Form</h1>
-        <p>Należy wypełnić wszystkie pola</p>
+        <div className="PlaceCreateForm__header">
+          <h2 className="PlaceCreateForm__header">Add new place</h2>
+          <p className="PlaceCreateForm__header">
+            Należy wypełnić wszystkie pola
+          </p>
+        </div>
         <form
           noValidate
           validate="false"
           onSubmit={this.handleForm}
-          className="placeCreateForm">
-          <label htmlFor="title" className="placeCreateForm__label">
+          className="PlaceCreateForm">
+          <label htmlFor="title" className="PlaceCreateForm__label">
             <input
-              className="placeCreateForm__input"
+              className="PlaceCreateForm__input"
               type="text"
               name="title"
               value={params.title}
@@ -138,11 +142,11 @@ class PlaceCreateForm extends Component {
               placeholder="Wpisz tytuł"
             />
             {errors.title.length > 0 && (
-              <span className="placeCreateForm__error">{errors.title}</span>
+              <span className="PlaceCreateForm__error">{errors.title}</span>
             )}
           </label>
 
-          <label htmlFor="description" className="placeCreateForm__label">
+          <label htmlFor="description" className="PlaceCreateForm__label">
             <input
               type="text"
               name="description"
@@ -150,16 +154,16 @@ class PlaceCreateForm extends Component {
               onChange={this.handleChange}
               onBlur={this.handleBlur}
               placeholder="Dodaj opis"
-              className="placeCreateForm__input"
+              className="PlaceCreateForm__input"
             />
             {errors.description.length > 0 && (
-              <span className="placeCreateForm__error">
+              <span className="PlaceCreateForm__error">
                 {errors.description}
               </span>
             )}
           </label>
 
-          <label htmlFor="foto_url" className="placeCreateForm__label">
+          <label htmlFor="foto_url" className="PlaceCreateForm__label">
             <input
               type="text"
               name="foto_url"
@@ -167,14 +171,14 @@ class PlaceCreateForm extends Component {
               onChange={this.handleChange}
               onBlur={this.handleBlur}
               placeholder="Dodaj link do zdjęcia"
-              className="placeCreateForm__input"
+              className="PlaceCreateForm__input"
             />
             {errors.foto_url.length > 0 && (
-              <span className="placeCreateForm__error">{errors.foto_url}</span>
+              <span className="PlaceCreateForm__error">{errors.foto_url}</span>
             )}
           </label>
 
-          <label htmlFor="foto_price" className="placeCreateForm__label">
+          <label htmlFor="foto_price" className="PlaceCreateForm__label">
             <input
               type="text"
               name="price"
@@ -182,14 +186,14 @@ class PlaceCreateForm extends Component {
               onChange={this.handleChange}
               onBlur={this.handleBlur}
               placeholder="Wpisz cenę"
-              className="placeCreateForm__input"
+              className="PlaceCreateForm__input"
             />
             {errors.price.length > 0 && (
-              <span className="placeCreateForm__error">{errors.price}</span>
+              <span className="PlaceCreateForm__error">{errors.price}</span>
             )}
           </label>
 
-          <label htmlFor="city" className="placeCreateForm__label">
+          <label htmlFor="city" className="PlaceCreateForm__label">
             <input
               type="text"
               name="city"
@@ -197,14 +201,14 @@ class PlaceCreateForm extends Component {
               onChange={this.handleChange}
               onBlur={this.handleBlur}
               placeholder="Wpisz miasto"
-              className="placeCreateForm__input"
+              className="PlaceCreateForm__input"
             />
             {errors.city.length > 0 && (
-              <span className="placeCreateForm__error">{errors.city}</span>
+              <span className="PlaceCreateForm__error">{errors.city}</span>
             )}
           </label>
 
-          <label htmlFor="address" className="placeCreateForm__label">
+          <label htmlFor="address" className="PlaceCreateForm__label">
             <input
               type="text"
               name="address"
@@ -212,14 +216,14 @@ class PlaceCreateForm extends Component {
               onChange={this.handleChange}
               onBlur={this.handleBlur}
               placeholder="Wpisz adres"
-              className="placeCreateForm__input"
+              className="PlaceCreateForm__input"
             />
             {errors.address.length > 0 && (
-              <span className="placeCreateForm__error">{errors.address}</span>
+              <span className="PlaceCreateForm__error">{errors.address}</span>
             )}
           </label>
 
-          <label htmlFor="category" className="placeCreateForm__label">
+          <label htmlFor="category" className="PlaceCreateForm__label">
             <input
               type="text"
               name="category"
@@ -227,14 +231,14 @@ class PlaceCreateForm extends Component {
               onChange={this.handleChange}
               onBlur={this.handleBlur}
               placeholder="Wpisz kategorię"
-              className="placeCreateForm__input"
+              className="PlaceCreateForm__input"
             />
             {errors.category.length > 0 && (
-              <span className="placeCreateForm__error">{errors.category}</span>
+              <span className="PlaceCreateForm__error">{errors.category}</span>
             )}
           </label>
 
-          <label htmlFor="rate" className="placeCreateForm__label">
+          <label htmlFor="rate" className="PlaceCreateForm__label">
             <input
               type="text"
               name="rate"
@@ -242,10 +246,10 @@ class PlaceCreateForm extends Component {
               onChange={this.handleChange}
               onBlur={this.handleBlur}
               placeholder="Wpisz ocenę"
-              className="placeCreateForm__input"
+              className="PlaceCreateForm__input"
             />
             {errors.rate.length > 0 && (
-              <span className="placeCreateForm__error">{errors.rate}</span>
+              <span className="PlaceCreateForm__error">{errors.rate}</span>
             )}
           </label>
 

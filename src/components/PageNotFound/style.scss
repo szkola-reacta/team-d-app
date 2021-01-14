@@ -1,0 +1,59 @@
+.PageNotFound {
+  &__opacity {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: white;
+    opacity: 0.8;
+    z-index: 1001;
+  }
+  &__info {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    max-width: 600px;
+    height: 300px;
+    padding: 2em;
+    color: #5c5b61;
+    opacity: 1;
+    z-index: 1002;
+    background-image: url('./assets/fog.jpg');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    @media only screen and (min-width: 768px) {
+      position: absolute;
+      top: 40%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 100%;
+      max-width: 1200px;
+      height: 600px;
+      padding: 2em;
+      color: #5c5b61;
+    }
+  }
+  &__link a {
+    display: block;
+    font-size: 1.4rem;
+    color: #c78c55;
+    transition: 0.2s;
+    text-transform: uppercase;
+    text-decoration: none;
+    &:hover {
+      color: #ffffff;
+      font-size: 1.5rem;
+    }
+  }
+  &__text {
+    @media only screen and (min-width: 768px) {
+      margin-top: 10em;
+    }
+  }
+}

@@ -2,7 +2,7 @@ import React from 'react';
 
 function ContributorLink({ link, children }) {
   return (
-    <a className="contributor__socialMediaLink" href={link}>
+    <a className="ContributorItem__ContributorLink" href={link}>
       {children}
     </a>
   );

@@ -4,20 +4,20 @@ import NavList from 'components/Nav/NavList';
 import { FooterBreak, FooterSection, SocialLink } from 'components/Footer';
 import { ReactComponent as GitHub } from 'assets/github.svg';
 
-import './style.css';
+import './style.scss';
 
 const REPO_URL = 'https://github.com/szkola-reacta/team-d-app';
 const COPYRIGHT = `Copyright © 2020 Szkoła Reacta's Team D. All Rights Reserved.`;
 
 function Footer() {
   return (
-    <footer className="footer">
-      <div className="footer__firstRow">
+    <footer className="Footer">
+      <div className="Footer__firstRow">
         <FooterSection title="Menu" narrow>
-          <NavList navListClass="menu" navLinkClass="menu__link" />
+          <NavList navListClass="Footer__menu" navLinkClass="Footer__link" />
         </FooterSection>
         <FooterSection title="About us">
-          <p className="footer__paragraph">
+          <p className="Footer__paragraph">
             Satoshi Nakamoto launched lots of decentralisation when Litecoin
             required many decentralised application, for Augur limited some
             public key behind lots of multi signature. Blockchain thought some
@@ -25,7 +25,7 @@ function Footer() {
           </p>
         </FooterSection>
         <FooterSection title="Third footer section">
-          <p className="footer__paragraph">
+          <p className="Footer__paragraph">
             Space, the final frontier. These are the voyages of the Starship
             Enterprise. Its five-year mission: to explore strange new worlds, to
             seek out new life and new civilizations, to boldly go where no man
@@ -37,7 +37,7 @@ function Footer() {
         </FooterSection>
       </div>
       <FooterBreak />
-      <div className="footer__secondRow">{COPYRIGHT}</div>
+      <div className="Footer__secondRow">{COPYRIGHT}</div>
     </footer>
   );
 }

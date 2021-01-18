@@ -6,15 +6,12 @@ import {
   Redirect,
 } from 'react-router-dom';
 
-import { About, Home } from 'containers';
+import { About, Home, Places, PlaceCreateForm } from 'containers';
 import { Header } from 'components/Header';
 import { Footer } from 'components/Footer';
 import { PageNotFound } from 'components/PageNotFound';
-import { PlaceList } from './components/PlaceList';
-import Searchbar from 'components/Searchbar/Searchbar.js';
-import { PlaceCreateForm } from './components/PlaceCreateForm';
 
-import 'App.css';
+import 'App.scss';
 
 function App() {
   return (
@@ -26,10 +23,7 @@ function App() {
             <Home />
           </Route>
           <Route path="/places">
-            <div className="App__Home">
-              <Searchbar />
-              <PlaceList />
-            </div>
+            <Places />
           </Route>
           <Route path="/place-form">
             <PlaceCreateForm />

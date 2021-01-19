@@ -20,7 +20,6 @@ function ContributorList() {
   useEffect(() => {
     getData();
   }, []);
-  console.log(contributors);
 
   return (
     <div className="ContributorList">

@@ -2,7 +2,6 @@ import React from 'react';
 import { ContributorImage } from './ContributorImage';
 import { ContributorDetails } from './ContributorDetails';
 import './style.scss';
-import profilePhoto from '../../../assets/photo/norbert.jpg';
 
 function ContributorItem({ contributor }) {
   return (

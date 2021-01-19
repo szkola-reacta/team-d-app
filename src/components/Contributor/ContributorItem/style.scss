@@ -1,5 +1,5 @@
 .ContributorItem {
-  margin: 0 auto;
+  margin: 10px auto;
   width: 300px;
   height: 400px;
   display: flex;
@@ -7,6 +7,9 @@
   align-items: center;
   justify-content: space-between;
   border: 2px solid black;
+  @media(min-width: 1200px) {
+    width: 28%;
+  }
 
   &__socialMediaLink {
     width: 20px;

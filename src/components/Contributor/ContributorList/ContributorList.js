@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { ContributorItem } from '../ContributorItem';
+import './style.scss';
 
 function ContributorList() {
   const [contributors, setContributors] = useState([]);
@@ -22,7 +23,7 @@ function ContributorList() {
   console.log(contributors);
 
   return (
-    <div>
+    <div className="ContributorList">
       {contributors ? (
         contributors.map((contributor, index) => (
           <ContributorItem key={index} contributor={contributor} />

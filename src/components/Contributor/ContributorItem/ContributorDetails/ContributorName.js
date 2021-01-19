@@ -1,7 +1,11 @@
 import React from 'react';
 
-function ContributorName({ name }) {
-  return <h2>{name}</h2>;
+function ContributorName({ name, surname }) {
+  return (
+    <h2>
+      {name} {surname}
+    </h2>
+  );
 }
 
 export default ContributorName;

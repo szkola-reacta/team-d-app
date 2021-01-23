@@ -7,7 +7,8 @@
         "city": "Gdańsk",
         "category": "museum",
         "address": "Długi Targ 43-44",
-        "rate": "4.5"
+        "rate": "4.5",
+        "id": "place-1"
     },
     {
         "title": "Zamek w Będzinie",
@@ -17,7 +18,8 @@
         "city": "Będzin",
         "category": "castle",
         "address": "Zamkowa 1",
-        "rate": "4.3"
+        "rate": "4.3",
+        "id": "place-2"
     },
     {
         "title": "Biskupin",
@@ -27,7 +29,8 @@
         "city": "Biskupin",
         "category": "castle",
         "address": "Biskupin 3",
-        "rate": "3.5"
+        "rate": "3.5",
+        "id": "place-3"
     },
     {
         "title": "Zamek Bobolice",
@@ -37,7 +40,8 @@
         "city": "Bobolice",
         "category": "castle",
         "address": "Bobolice 1",
-        "rate": "4.9"
+        "rate": "4.9",
+        "id": "place-4"
     },
     {
         "title": "Kopalnia soli Bochnia",
@@ -47,7 +51,8 @@
         "city": "Bochnia",
         "category": "mine",
         "address": "Campi 15",
-        "rate": "4.1"
+        "rate": "4.1",
+        "id": "place-5"
     },
     {
         "title": "Drewniany Meczet w Bohonikach",
@@ -57,7 +62,8 @@
         "city": "Bohoniki",
         "category": "mosque",
         "address": "Bohoniki",
-        "rate": "2.5"
+        "rate": "2.5",
+        "id": "place-6"
     },
     {
         "title": "Muzeum Bursztynu w Gdańsku",
@@ -67,7 +73,8 @@
         "city": "Gdańsk",
         "category": "museum",
         "address": "Targ Węglowy 26",
-        "rate": "4.4"
+        "rate": "4.4",
+        "id": "place-7"
     },
     {
         "title": "Połonina Caryńska",
@@ -77,7 +84,8 @@
         "city": "Stuzica",
         "category": "mountains",
         "address": "Stuzica - Bieszczady",
-        "rate": "3.0"
+        "rate": "3.0",
+        "id": "place-8"
     },
     {
         "title": "Zamek Chojnik",
@@ -87,7 +95,8 @@
         "city": "Jelenia Góra",
         "category": "castle",
         "address": "Bronka Czecha",
-        "rate": "4.7"
+        "rate": "4.7",
+        "id": "place-9"
     },
     {
         "title": "Pracownia Ceramiki Kaszubskiej",
@@ -97,7 +106,8 @@
         "city": "Chmielno",
         "category": "museum",
         "address": "Gryfa Pomorskiego 65",
-        "rate": "3.1"
+        "rate": "3.1",
+        "id": "place-10"
     },
     {
         "title": "Centrum Edukacji i Kultury Szklany Dom",
@@ -107,7 +117,8 @@
         "city": "Ciekoty",
         "category": "mansion",
         "address": "Ciekoty 76",
-        "rate": "3.7"
+        "rate": "3.7",
+        "id": "place-11"
     },
     {
         "title": "Zamek Czocha",
@@ -117,7 +128,8 @@
         "city": "Leśna",
         "category": "hotel SPA",
         "address": "Sucha",
-        "rate": "4.6"
+        "rate": "4.6",
+        "id": "place-12"
     },
     {
         "title": "Fabryka Porcelany AS Ćmielów",
@@ -127,7 +139,8 @@
         "city": "Ćmielów",
         "category": "museum",
         "address": "Sandomierska 243",
-        "rate": "3.6"
+        "rate": "3.6",
+        "id": "place-13"
     },
     {
         "title": "Jarmark św. Dominika",
@@ -137,7 +150,8 @@
         "city": "Gdańsk",
         "category": "market",
         "address": "Targ Węglowy",
-        "rate": "3.1"
+        "rate": "3.1",
+        "id": "place-14"
     },
     {
         "title": "Ratusz w Gdańsku",
@@ -147,7 +161,8 @@
         "city": "Gdańsk",
         "category": "town hall",
         "address": "Długa 46",
-        "rate": "3.2"
+        "rate": "3.2",
+        "id": "place-15"
     },
     {
         "title": "Twierdza Wisłoujście w Gdańsku",
@@ -157,7 +172,8 @@
         "city": "Gdańsk",
         "category": "castle",
         "address": "Stara Twierdza 1",
-        "rate": "4.0"
+        "rate": "4.0",
+        "id": "place-16"
     },
     {
         "title": "Schron przeciwlotniczy w Gdyni",
@@ -167,7 +183,8 @@
         "city": "Gdynia",
         "category": "shelter",
         "address": "Morska 189",
-        "rate": "4.5"
+        "rate": "4.5",
+        "id": "place-17"
     },
     {
         "title": "Zamek Grodziec",
@@ -177,7 +194,8 @@
         "city": "Grodziec",
         "category": "castle",
         "address": "Grodziec 111",
-        "rate": "4.2"
+        "rate": "4.2",
+        "id": "place-18"
     },
     {
         "title": "Jaskinia Łokietka i Ciemna",
@@ -187,7 +205,8 @@
         "city": "Gmina Skała w pobliżu wsi Ojców",
         "category": "cave",
         "address": "Ojców",
-        "rate": "3.6"
+        "rate": "3.6",
+        "id": "place-19"
     },
     {
         "title": "Jaskinia Niedźwiedzia w Kletnie",
@@ -197,7 +216,8 @@
         "city": "Kletno",
         "category": "cave",
         "address": "Kletno",
-        "rate": "3.9"
+        "rate": "3.9",
+        "id": "place-20"
     },
     {
         "title": "Kaszubski Park Miniatur",
@@ -207,7 +227,8 @@
         "city": "Strysza Buda",
         "category": "park",
         "address": "Kartuska 30",
-        "rate": "4.2"
+        "rate": "4.2",
+        "id": "place-21"
     },
     {
         "title": "Muzeum Kaszubskie",
@@ -217,7 +238,8 @@
         "city": "Kartuzy",
         "category": "museum",
         "address": "Kościerska 1",
-        "rate": "3.4"
+        "rate": "3.4",
+        "id": "place-22"
     },
     {
         "title": "Muzeum Zabawy i Zabawek",
@@ -227,7 +249,8 @@
         "city": "Kielce",
         "category": "museum",
         "address": "plac Wolności 2",
-        "rate": "4.8"
+        "rate": "4.8",
+        "id": "place-23"
     },
     {
         "title": "Zamek Kamieniec",
@@ -237,7 +260,8 @@
         "city": "Korczyna",
         "category": "castle",
         "address": "Podzamcze B/N",
-        "rate": "5.0"
+        "rate": "5.0",
+        "id": "place-24"
     },
     {
         "title": "Pacanów",
@@ -247,7 +271,8 @@
         "city": "Pacanów",
         "category": "city",
         "address": "Pacanów",
-        "rate": "10.0"
+        "rate": "10.0",
+        "id": "place-25"
     },
     {
         "title": "Zamek Rabsztyn",
@@ -257,7 +282,8 @@
         "city": "Rabsztyn",
         "category": "castle",
         "address": "Zamek",
-        "rate": "4.3"
+        "rate": "4.3",
+        "id": "place-26"
     },
     {
         "title": "Muzeum Wyrzutnia Rakiet",
@@ -267,7 +293,8 @@
         "city": "Łeba",
         "category": "museum",
         "address": "Łeba",
-        "rate": "2.1"
+        "rate": "2.1",
+        "id": "place-27"
     },
     {
         "title": "Kompleks Riese",
@@ -277,7 +304,8 @@
         "city": "Sierpnica",
         "category": "cave",
         "address": "Swierkowa 29d",
-        "rate": "4.0"
+        "rate": "4.0",
+        "id": "place-28"
     }
 ]
 

@@ -1,5 +1,4 @@
 import React from 'react';
-import { v4 as uuidv4 } from 'uuid';
 
 import { Place } from 'components/Place';
 import './style.scss';
@@ -9,7 +8,7 @@ const PlaceList = ({ places }) => {
     <div>
       <div className="PlaceList">
         {places.map((data) => (
-          <Place key={uuidv4()} data={data} />
+          <Place key={data.id} data={data} />
         ))}
       </div>
     </div>

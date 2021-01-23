@@ -29,6 +29,7 @@ function Nav() {
         defaultClass="Nav__listDefault"
         navListClass={isActive ? '--listActive' : '--listHidden'}
         navLinkClass="Nav__linkDefault"
+        handleClick={handleClick}
       />
     </nav>
   );

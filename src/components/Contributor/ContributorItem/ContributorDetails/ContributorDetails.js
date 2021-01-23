@@ -9,10 +9,17 @@ import { faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 import { faGlobe } from '@fortawesome/free-solid-svg-icons';
 
 function ContributorDetails(props) {
-  const { name, description, gitHubLink, linkedInLink, websiteLink } = props;
+  const {
+    name,
+    surname,
+    description,
+    gitHubLink,
+    linkedInLink,
+    websiteLink,
+  } = props;
   return (
     <article className="ContributorItem__ContributorDetails">
-      <ContributorName name={name} />
+      <ContributorName name={name} surname={surname} />
       <ContributorBio description={description} />
       <LinkWrapper>
         <ContributorLink link={gitHubLink}>

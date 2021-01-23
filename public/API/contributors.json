@@ -1,0 +1,68 @@
+[
+  {
+    "name": "Norbert",
+    "surname": "Wronski",
+    "description": "Front-End Developer",
+    "photo_url": "https://avatars1.githubusercontent.com/u/47699388?s=400&u=ea04a7be43599604b940c780cf5a1f5fbede43a3&v=4",
+    "link": {
+      "github": "https://github.com/WronskiN",
+      "linkedin": "https://www.linkedin.com/in/norbertwronski",
+      "portfolio": ""
+    }
+  },
+  {
+    "name": "Lukasz",
+    "surname": "Modzelewski",
+    "description": "Front-End Developer",
+    "photo_url": "https://avatars1.githubusercontent.com/u/57635247?s=400&u=4e67ad788bd2a895f3c138cc23fda27d12d9b49b&v=4",
+    "link": {
+      "github": "https://github.com/LukasMod",
+      "linkedin": "https://www.linkedin.com/in/lukasz-modzelewski/",
+      "portfolio": ""
+    }
+  },
+  {
+    "name": "Weronika",
+    "surname": "Olejniczak",
+    "description": "Front-End Developer",
+    "photo_url": "https://avatars3.githubusercontent.com/u/32842468?s=400&u=976df18775a4bebb45f48e7f67781e3c739fd157&v=4",
+    "link": {
+      "github": "https://github.com/weronikaolejniczak",
+      "linkedin": "https://www.linkedin.com/in/weronika-olejniczak/",
+      "portfolio": ""
+    }
+  },
+  {
+    "name": "Maciej",
+    "surname": "Paszkowski",
+    "description": "Front-End Developer",
+    "photo_url": "https://avatars0.githubusercontent.com/u/7242909?s=400&u=d8b9bb27f3a30cc57db17dfd96b0d204cb117561&v=4",
+    "link": {
+      "github": "https://github.com/MaciejPaszkowski",
+      "linkedin": "https://www.linkedin.com/in/maciej-paszkowski-874a30b2/",
+      "portfolio": ""
+    }
+  },
+  {
+    "name": "Pawel",
+    "surname": "Bajera",
+    "description": "Front-End Developer",
+    "photo_url": "https://avatars0.githubusercontent.com/u/27962420?s=400&u=9edc99e5141f84916046314aead8c0126416da19&v=4",
+    "link": {
+      "github": "https://github.com/pawelBareja",
+      "linkedin": "https://www.linkedin.com/in/pawelbareja/",
+      "portfolio": ""
+    }
+  },
+  {
+    "name": "Artur",
+    "surname": "Kempny",
+    "description": "Front-End Developer",
+    "photo_url": "https://avatars2.githubusercontent.com/u/46399095?s=400&u=ca994818d8fd47810f9829e09bf75d153378a8e4&v=4",
+    "link": {
+      "github": "https://github.com/Arturk89",
+      "linkedin": "https://www.linkedin.com/in/artur-kempny-051ba519b/",
+      "portfolio": ""
+    }
+  }
+]

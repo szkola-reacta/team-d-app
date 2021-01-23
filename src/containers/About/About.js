@@ -1,12 +1,12 @@
 import React from 'react';
 import './style.scss';
-import { ContributorItem } from '../../components/Contributor/ContributorItem';
+import { ContributorList } from '../../components/Contributor/ContributorList';
 
 function About() {
   return (
     <div className="About">
       <h2 className="About">About us</h2>
-      <ContributorItem />
+      <ContributorList />
     </div>
   );
 }

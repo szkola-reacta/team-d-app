@@ -12,7 +12,7 @@ function Nav() {
   };
 
   return (
-    <nav className="Nav">
+    <nav className={isActive ? 'Nav' : 'Nav Nav--listHidden'}>
       <Logo />
       <NavIcon icon={isActive ? cross : hamburger} onClick={handleClick} />
       <NavList

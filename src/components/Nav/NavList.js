@@ -1,31 +1,31 @@
-import React from 'react';
-import NavItem from './NavItem';
-import './style.scss';
+import React from "react";
+import NavItem from "./NavItem";
+import "./style.scss";
 
 const List = [
   {
     id: 1,
-    linkName: 'home',
-    path: '/',
+    linkName: "home",
+    path: "/",
   },
   {
     id: 2,
-    linkName: 'about',
-    path: '/about',
+    linkName: "about",
+    path: "/about",
   },
   {
     id: 3,
-    linkName: 'places',
-    path: '/places',
+    linkName: "places",
+    path: "/places",
   },
   {
     id: 4,
-    linkName: 'add new place',
-    path: '/place-form',
+    linkName: "add new place",
+    path: "/place-form",
   },
 ];
 
-function NavList({ navListClass, defaultClass, navLinkClass }) {
+function NavList({ navListClass, defaultClass, navLinkClass, menuState }) {
   return (
     <ul className={`${defaultClass} ${defaultClass}${navListClass}`}>
       {List.map((el) => (
@@ -34,6 +34,7 @@ function NavList({ navListClass, defaultClass, navLinkClass }) {
           linkName={el.linkName}
           to={el.path}
           navLinkClass={navLinkClass}
+          menuState={menuState}
         />
       ))}
     </ul>

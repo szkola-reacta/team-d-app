@@ -1,11 +1,14 @@
-import React from 'react';
-import { NavLink } from 'react-router-dom';
+import React from "react";
+import { NavLink } from "react-router-dom";
 
-function NavItem(props) {
-  const { to, linkName, navLinkClass } = props;
+function NavItem({ to, linkName, navLinkClass, menuState }) {
   return (
     <li className="Nav__NavItem">
-      <NavLink to={to} className={navLinkClass}>
+      <NavLink
+        onClick={() => menuState(false)}
+        to={to}
+        className={navLinkClass}
+      >
         {linkName}
       </NavLink>
     </li>

@@ -7,19 +7,19 @@ import hamburger from './assets/menu-c.svg';
 
 function Nav() {
   const [isActive, setIsActive] = useState(false);
-
   const handleClick = () => {
     setIsActive(!isActive);
   };
 
   return (
-    <nav className="Nav">
+    <nav className={isActive ? 'Nav' : 'Nav Nav--listHidden'}>
       <Logo />
       <NavIcon icon={isActive ? cross : hamburger} onClick={handleClick} />
       <NavList
         defaultClass="Nav__listDefault"
         navListClass={isActive ? '--listActive' : '--listHidden'}
         navLinkClass="Nav__linkDefault"
+        handleClick={handleClick}
       />
     </nav>
   );

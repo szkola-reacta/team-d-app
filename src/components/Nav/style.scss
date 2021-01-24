@@ -1,18 +1,31 @@
 @import '../../constants/Colors.scss';
+@import '../../constants/Breakpoints.scss';
 
 .Nav {
-  max-width: 100%;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   background-color: transparent;
   align-items: center;
   padding: 15px 25px;
+  position: fixed;
+  @include for-tablet-portrait-up {
+    position: static;
+    background-color: rgba(255, 255, 255, 0.274);
+  }
+  &--listHidden {
+    position: static;
+  }
   &__listDefault {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     list-style: none;
+    @include for-tablet-portrait-up {
+      flex-direction: row;
+      justify-content: flex-end;
+    }
     &--listActive {
       width: 100%;
       height: 100vh;
@@ -20,6 +33,13 @@
       top: 0;
       left: 0;
       background-color: $color-4;
+      position: fixed;
+      @include for-tablet-portrait-up {
+        width: 100%;
+        height: 10vh;
+        position: static;
+        background-color: transparent;
+      }
     }
     &--listHidden {
       width: 100%;
@@ -28,9 +48,14 @@
       top: -100vh;
       left: 0;
       background-color: $color-4;
+      @include for-tablet-portrait-up {
+        width: 100%;
+        height: 10vh;
+        position: static;
+        background-color: transparent;
+      }
     }
   }
-
   &__linkDefault {
     font-size: 20px;
     letter-spacing: 2px;
@@ -38,6 +63,13 @@
     text-transform: uppercase;
     text-decoration: none;
     color: $color-1;
+    cursor: pointer;
+    @include for-tablet-portrait-up {
+      font-size: 24px;
+      &:hover {
+        color: $color-4;
+      }
+    }
   }
   &__NavItem {
     padding: 5px 10px;
@@ -48,9 +80,8 @@
     height: 25px;
     z-index: 1000;
     cursor: pointer;
-    @media (min-width: 768px) {
-      width: 35px;
-      height: 35px;
+    @include for-tablet-portrait-up {
+      visibility: hidden;
     }
   }
   &__iconImg {
@@ -59,8 +90,8 @@
   }
   &__Logo {
     z-index: 1000;
-    @media (min-width: 768px) {
-      font-size: 1.5rem;
+    @include for-tablet-portrait-up {
+      font-size: 2rem;
     }
   }
 }

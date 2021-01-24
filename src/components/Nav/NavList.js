@@ -25,7 +25,7 @@ const List = [
   },
 ];
 
-function NavList({ navListClass, defaultClass, navLinkClass }) {
+function NavList({ navListClass, defaultClass, navLinkClass, handleClick }) {
   return (
     <ul className={`${defaultClass} ${defaultClass}${navListClass}`}>
       {List.map((el) => (
@@ -34,6 +34,7 @@ function NavList({ navListClass, defaultClass, navLinkClass }) {
           linkName={el.linkName}
           to={el.path}
           navLinkClass={navLinkClass}
+          handleClick={handleClick}
         />
       ))}
     </ul>

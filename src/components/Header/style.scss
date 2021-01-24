@@ -1,8 +1,13 @@
+@import '../../constants/Breakpoints.scss';
+
 .Header {
   width: 100%;
-  height: 100vh;
+  height: 20vh;
   background-image: url('./assets/travel.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  @include for-tablet-portrait-up {
+    height: 30vh;
+  }
 }

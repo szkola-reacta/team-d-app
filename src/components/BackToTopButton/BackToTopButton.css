@@ -1,0 +1,25 @@
+.scrollTopButton {
+  position: fixed;
+  bottom: 20px;
+  right: 3px;
+  animation: fadeIn 300ms ease-in-out 1s both;
+  cursor: pointer;
+  border: none;
+  background: #858585;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.scrollTopButton__icon {
+  font-size: 24px;
+  color: #fff;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

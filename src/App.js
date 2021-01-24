@@ -1,17 +1,18 @@
-import React from 'react';
+import React from "react";
 import {
   BrowserRouter as Router,
   Switch,
   Route,
   Redirect,
-} from 'react-router-dom';
+} from "react-router-dom";
 
-import { About, Home, Places, PlaceCreateForm } from 'containers';
-import { Header } from 'components/Header';
-import { Footer } from 'components/Footer';
-import { PageNotFound } from 'components/PageNotFound';
+import { About, Home, Places, PlaceCreateForm } from "containers";
+import { Header } from "components/Header";
+import { Footer } from "components/Footer";
+import { PageNotFound } from "components/PageNotFound";
+import { BackToTopButton } from "components/BackToTopButton";
 
-import 'App.scss';
+import "App.scss";
 
 function App() {
   return (
@@ -39,6 +40,7 @@ function App() {
         </Switch>
         <Footer />
       </div>
+      <BackToTopButton />
     </Router>
   );
 }
